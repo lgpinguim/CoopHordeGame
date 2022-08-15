@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\GitUE\\CoopHordeGame\\CoopHordeGame\\Source\\CoopHordeGame\\CoopHordeGame.Build.cs",
+		"D:\\GitUE\\CoopHordeGame\\CoopHordeGame\\Source\\CoopHordeGame.Target.cs",
+		"D:\\GitUE\\CoopHordeGame\\CoopHordeGame\\Source\\CoopHordeGameEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

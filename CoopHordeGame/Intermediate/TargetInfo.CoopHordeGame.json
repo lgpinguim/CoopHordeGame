@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CoopHordeGame",
+			"Path": "D:\\GitUE\\CoopHordeGame\\CoopHordeGame\\Source\\CoopHordeGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CoopHordeGameEditor",
+			"Path": "D:\\GitUE\\CoopHordeGame\\CoopHordeGame\\Source\\CoopHordeGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
