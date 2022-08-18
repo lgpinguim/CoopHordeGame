@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeCoopHordeGame_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x0AECE04C,
+				0xAA54437F,
 				0x304A953B,
 				METADATA_PARAMS(nullptr, 0)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeCoopHordeGame_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_CoopHordeGame.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CoopHordeGame(Z_Construct_UPackage__Script_CoopHordeGame, TEXT("/Script/CoopHordeGame"), Z_Registration_Info_UPackage__Script_CoopHordeGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x0AECE04C, 0x304A953B));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CoopHordeGame(Z_Construct_UPackage__Script_CoopHordeGame, TEXT("/Script/CoopHordeGame"), Z_Registration_Info_UPackage__Script_CoopHordeGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xAA54437F, 0x304A953B));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

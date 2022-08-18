@@ -1,0 +1,28 @@
+﻿  Using bundled DotNet SDK
+  Log file: C:\Users\lg_pi\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (D:\GitUE\CoopHordeGame).
+  Deleted hot-reload file: D:\GitUE\CoopHordeGame\CoopHordeGame\Binaries\Win64\UnrealEditor-CoopHordeGame-0002.dll
+  Deleted hot-reload file: D:\GitUE\CoopHordeGame\CoopHordeGame\Binaries\Win64\UnrealEditor-CoopHordeGame-0002.pdb
+  Deleted hot-reload file: D:\GitUE\CoopHordeGame\CoopHordeGame\Binaries\Win64\UnrealEditor-CoopHordeGame-0004.dll
+  Deleted hot-reload file: D:\GitUE\CoopHordeGame\CoopHordeGame\Binaries\Win64\UnrealEditor-CoopHordeGame-0004.pdb
+  Deleted hot-reload file: D:\GitUE\CoopHordeGame\CoopHordeGame\Binaries\Win64\UnrealEditor-CoopHordeGame-1951.dll
+  Deleted hot-reload file: D:\GitUE\CoopHordeGame\CoopHordeGame\Binaries\Win64\UnrealEditor-CoopHordeGame-1951.pdb
+  Deleted hot-reload file: D:\GitUE\CoopHordeGame\CoopHordeGame\Binaries\Win64\UnrealEditor-CoopHordeGame-2067.dll
+  Deleted hot-reload file: D:\GitUE\CoopHordeGame\CoopHordeGame\Binaries\Win64\UnrealEditor-CoopHordeGame-2067.pdb
+  Deleted hot-reload file: D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame-0002.lib
+  Deleted hot-reload file: D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame-0004.lib
+  Deleted hot-reload file: D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame-1951.lib
+  Deleted hot-reload file: D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame-2067.lib
+  Building CoopHordeGameEditor...
+  Using Visual Studio 2019 14.29.30138 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from CoopHordeGame unity file: SCharacter.cpp
+  Determining max actions to execute in parallel (6 physical cores, 6 logical cores)
+    Executing up to 6 processes, one per physical core
+  Building 3 actions with 3 processes...
+  [1/3] Link UnrealEditor-CoopHordeGame.lib
+     Creating library D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame.lib and object D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame.exp
+  [2/3] Link UnrealEditor-CoopHordeGame.dll
+     Creating library D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame.suppressed.lib and object D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame.suppressed.exp
+  [3/3] WriteMetadata CoopHordeGameEditor.target
+  Total time in Parallel executor: 1.13 seconds
+  Total execution time: 1.98 seconds
