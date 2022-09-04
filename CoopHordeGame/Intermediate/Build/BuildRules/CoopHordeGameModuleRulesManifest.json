@@ -1,6 +1,12 @@
 {
 	"SourceFiles": [
 		"D:\\GitUE\\CoopHordeGame\\CoopHordeGame\\Source\\CoopHordeGame\\CoopHordeGame.Build.cs",
+		"D:\\GitUE\\CoopHordeGame\\CoopHordeGame\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
+		"D:\\GitUE\\CoopHordeGame\\CoopHordeGame\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprint\\RiderBlueprint.Build.cs",
+		"D:\\GitUE\\CoopHordeGame\\CoopHordeGame\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControl\\RiderGameControl.Build.cs",
+		"D:\\GitUE\\CoopHordeGame\\CoopHordeGame\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
+		"D:\\GitUE\\CoopHordeGame\\CoopHordeGame\\Plugins\\Developer\\RiderLink\\Source\\RiderLogging\\RiderLogging.Build.cs",
+		"D:\\GitUE\\CoopHordeGame\\CoopHordeGame\\Plugins\\Developer\\RiderLink\\Source\\RiderShaderInfo\\RiderShaderInfo.Build.cs",
 		"D:\\GitUE\\CoopHordeGame\\CoopHordeGame\\Source\\CoopHordeGame.Target.cs",
 		"D:\\GitUE\\CoopHordeGame\\CoopHordeGame\\Source\\CoopHordeGameEditor.Target.cs"
 	],
