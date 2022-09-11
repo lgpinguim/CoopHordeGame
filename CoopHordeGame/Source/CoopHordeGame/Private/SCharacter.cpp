@@ -17,6 +17,7 @@ ASCharacter::ASCharacter()
 	SpringArmComp = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArmComp"));
 	SpringArmComp->bUsePawnControlRotation = true;
 	SpringArmComp->SetupAttachment(RootComponent);
+	SpringArmComp->bEnableCameraRotationLag = true;
 
 	GetMovementComponent()->GetNavAgentPropertiesRef().bCanCrouch=true;
 
@@ -24,6 +25,7 @@ ASCharacter::ASCharacter()
 	//Camera
 	CameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT( "CameraComp"));
 	CameraComp->SetupAttachment(SpringArmComp);
+	
 
 
 
