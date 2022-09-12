@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeCoopHordeGame_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xAA54437F,
-				0x304A953B,
+				0x5B7429B6,
+				0xA47CC0F5,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_CoopHordeGame.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_CoopHordeGame.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CoopHordeGame(Z_Construct_UPackage__Script_CoopHordeGame, TEXT("/Script/CoopHordeGame"), Z_Registration_Info_UPackage__Script_CoopHordeGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xAA54437F, 0x304A953B));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CoopHordeGame(Z_Construct_UPackage__Script_CoopHordeGame, TEXT("/Script/CoopHordeGame"), Z_Registration_Info_UPackage__Script_CoopHordeGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x5B7429B6, 0xA47CC0F5));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

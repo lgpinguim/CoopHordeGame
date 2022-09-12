@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\gitue\\coophordegame\\coophordegame\\intermediate\\build\\win64\\unrealeditor\\inc\\coophordegame\\sweapon.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gitue\\coophordegame\\coophordegame\\intermediate\\build\\win64\\coophordegameeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\gitue\\coophordegame\\coophordegame\\intermediate\\build\\win64\\unrealeditor\\development\\coophordegame\\definitions.coophordegame.h",
+            "d:\\gitue\\coophordegame\\coophordegame\\source\\coophordegame\\public\\sweapon.h",
+            "d:\\gitue\\coophordegame\\coophordegame\\intermediate\\build\\win64\\unrealeditor\\inc\\coophordegame\\sweapon.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
