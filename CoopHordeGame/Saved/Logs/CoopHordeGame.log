@@ -1114,3 +1114,612 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.10.03-22.12.27:432][428]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
 [2022.10.03-22.12.27:438][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
 [2022.10.03-22.12.27:512][429]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.10.03-22.16.21:856][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/BasicTracer/Beam.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.21:862][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/BasicTracer/M_Beam.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.21:869][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/BasicTracer/P_SmokeTrail.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.21:877][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/BloodImpact/clouds_dust_detail_01.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.21:883][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/BloodImpact/M_blood_cloud_01.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.21:890][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/BloodImpact/M_blood_splash_01.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.21:897][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/BloodImpact/M_blood_splash_03.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.21:904][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/BloodImpact/P_blood_splash_02.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.21:913][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/BloodImpact/T_BloodSplatter_Frames01.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.21:927][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/BloodImpact/T_BloodSplat_03_SubUV.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.21:941][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/Explosion/M_Burst.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.21:954][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/Explosion/M_explosion_subUV.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.21:968][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/Explosion/m_flare_01.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.21:983][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/Explosion/M_radial_ramp.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.21:995][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/Explosion/M_smoke_subUV.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.22:004][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/Explosion/P_Explosion.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.22:016][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/Explosion/T_Burst_M.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.22:023][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/Explosion/T_Explosion_SubUV.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.22:030][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/Explosion/T_Smoke_SubUV.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.22:038][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/Explosion/T_Smoke_Tiled_D.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.22:052][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/GenericImpact/Flare_02.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.22:976][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/GenericImpact/M_LensFlare_02.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.23:025][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/GenericImpact/M_spark_subUV.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.23:038][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/GenericImpact/P_RifleImpact.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.23:052][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/GenericImpact/T_SparkCore_2X2.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.23:058][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/Muzzle/MuzzleFlash_Master.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.23:065][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/Muzzle/MuzzleFlash_Master_Inst.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.23:073][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/Muzzle/MuzzleFlash_Master_Inst_2.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.23:080][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/Muzzle/MuzzleSmokeOne_1024_11x11.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.23:094][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/Muzzle/MuzzleTwo_2048_6x6.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.23:108][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/Muzzle/P_Muzzle_Large.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.23:122][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/ShellEject/M_ShellEjectMetal.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.23:136][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/ShellEject/P_Rifle_ShellEject.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.16.23:151][275]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\WeaponEffectsPack/WeaponEffects/ShellEject/SM_ShellEject.uasset'. Unknown extension 'uasset'.
+[2022.10.03-22.17.12:878][131]LogMaterial: Display: Missing cached shadermap for MuzzleFlash_Master in PCD3D_SM5, Default, SM5 (DDC key hash: ECE316DA8FD911B2E0360A731C233CE4D9500562), compiling. 
+[2022.10.03-22.17.13:112][131]LogTexture: Display: Building textures: /Game/WeaponEffects/Muzzle/MuzzleSmokeOne_1024_11x11.MuzzleSmokeOne_1024_11x11 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.03-22.17.13:112][131]LogTexture: Display: Building textures: /Game/WeaponEffects/Muzzle/MuzzleTwo_2048_6x6.MuzzleTwo_2048_6x6 (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.10.03-22.17.13:112][131]LogTexture: Display: Building textures: /Game/WeaponEffects/Muzzle/P_Muzzle_Large.P_Muzzle_Large:ThumbnailTexture (TFO_DXT1, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.03-22.17.13:112][131]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/WeaponEffects/Muzzle/P_Muzzle_Large.P_Muzzle_Large
+[2022.10.03-22.17.14:219][131]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.03-22.17.14:401][131]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.03-22.17.14:419][131]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AnimTreeEd_PreviewFloor) ...
+[2022.10.03-22.17.15:545][131]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2022.10.03-22.17.15:545][131]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.002799s (0.432538s overbudget)
+[2022.10.03-22.17.15:990][131]LogViewport: Scene viewport resized to 378x597, mode Windowed.
+[2022.10.03-22.17.16:359][131]LogViewport: Scene viewport resized to 883x721, mode Windowed.
+[2022.10.03-22.17.16:464][131]LogViewport: Scene viewport resized to 883x397, mode Windowed.
+[2022.10.03-22.17.20:662][365]LogMeshUtilities: Finished distance field build in 6.1s - 126x126x49 sparse distance field, 1.1Mb total, 0.0Mb always loaded, 83% occupied, 802 triangles, AnimTreeEd_PreviewFloor
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display: ================================================
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display: Total job queries 78, among them cache hits 0 (0.00%)
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display: Tracking 10 distinct input hashes that result in 8 distinct outputs (80.00%)
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display: RAM used: 0.02 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display: Shaders Compiled: 78
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display: Jobs assigned 21, completed 10 (47.62%)
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display: Time job spent in pending queue: average 0.78 s, longest 15.24 s
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display: Job execution time: average 15.19 s, max 15.19 s
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display: Job life time (pending + execution): average 15.24 s, max 15.24
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 15.24 s
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 7.00 jobs/batch
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display: Average processing rate: 0.66 jobs/sec
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display: Effective parallelization: 0.53 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy (compiled    1 times, average 1.10 sec, max 1.10 sec, min 1.10 sec)
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display:    TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy (compiled    1 times, average 1.02 sec, max 1.02 sec, min 1.02 sec)
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.98 sec, max 0.98 sec, min 0.98 sec)
+[2022.10.03-22.17.28:333][772]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.90 sec, max 0.90 sec, min 0.90 sec)
+[2022.10.03-22.17.28:334][772]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    1 times, average 0.85 sec, max 0.85 sec, min 0.85 sec)
+[2022.10.03-22.17.28:334][772]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.03-22.17.28:334][772]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy - 13.65% of total time (compiled    1 times, average 1.10 sec, max 1.10 sec, min 1.10 sec)
+[2022.10.03-22.17.28:334][772]LogShaderCompilers: Display:    TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy - 12.59% of total time (compiled    1 times, average 1.02 sec, max 1.02 sec, min 1.02 sec)
+[2022.10.03-22.17.28:334][772]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.16% of total time (compiled    1 times, average 0.98 sec, max 0.98 sec, min 0.98 sec)
+[2022.10.03-22.17.28:334][772]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 11.20% of total time (compiled    1 times, average 0.90 sec, max 0.90 sec, min 0.90 sec)
+[2022.10.03-22.17.28:334][772]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight - 10.57% of total time (compiled    1 times, average 0.85 sec, max 0.85 sec, min 0.85 sec)
+[2022.10.03-22.17.28:334][772]LogShaderCompilers: Display: ================================================
+[2022.10.03-22.17.39:659][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WeaponEffects/Muzzle/P_Muzzle_Large" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/WeaponEffects/Muzzle/P_Muzzle_Large.uasset" SILENT=true
+[2022.10.03-22.17.39:665][712]LogSavePackage: Moving output files for package: /Game/WeaponEffects/Muzzle/P_Muzzle_Large
+[2022.10.03-22.17.39:666][712]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/P_Muzzle_LargeAB29A61A4B5BD63DE04F758D9B6F439F.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/WeaponEffects/Muzzle/P_Muzzle_Large.uasset'
+[2022.10.03-22.17.39:684][712]AssetCheck: New page: Asset Save: P_Muzzle_Large
+[2022.10.03-22.17.39:684][712]LogContentValidation: Display: Validating ParticleSystem /Game/WeaponEffects/Muzzle/P_Muzzle_Large.P_Muzzle_Large
+[2022.10.03-22.20.17:163][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2022.10.03-22.20.17:165][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestMap" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/Autosaves/Game/TestMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.10.03-22.20.17:173][785]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TestMap_Auto2
+[2022.10.03-22.20.17:173][785]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/TestMap_Auto2E5B572D847D0A67FA40DCEAA4FC71A70.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/Autosaves/Game/TestMap_Auto2.umap'
+[2022.10.03-22.20.17:178][785]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TestMap' took 0.115
+[2022.10.03-22.20.17:178][785]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.115
+[2022.10.03-22.23.43:631][402]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.10.03-22.26.32:728][906]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.10.03-22.27.35:127][ 92]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.10.03-22.27.54:987][151]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.10.03-22.28.20:830][228]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.10.03-22.29.54:886][508]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.10.03-22.33.05:867][ 76]LogHotReload: New module detected: UnrealEditor-CoopHordeGame-0016.dll
+[2022.10.03-22.33.07:545][ 82]LogHotReload: Starting Hot-Reload from IDE
+[2022.10.03-22.33.07:683][ 82]LogClass: /Script/CoopHordeGame Reload.
+[2022.10.03-22.33.07:683][ 82]LogClass: SWeapon Reload.
+[2022.10.03-22.33.07:692][ 82]LogClass: Could not find existing class SWeapon in package /Script/CoopHordeGame for reload, assuming new or modified class
+[2022.10.03-22.33.07:692][ 82]LogClass: Function Fire is new or belongs to a modified class.
+[2022.10.03-22.33.07:712][ 82]Re-instancing SWeapon after reload.
+[2022.10.03-22.33.08:185][ 82]Display: HotReload took  0.6s.
+[2022.10.03-22.33.08:185][ 82]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 2 classes unchanged
+[2022.10.03-22.36.45:744][379]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Rifle.BP_Rifle
+[2022.10.03-22.36.45:744][379]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.03-22.36.46:344][380]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.10.03-22.36.47:776][525]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-22.36.47:777][525]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.03-22.36.47:821][525]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Rifle.BP_Rifle
+[2022.10.03-22.36.47:821][525]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.03-22.36.50:485][771]LogViewport: Scene viewport resized to 754x1223, mode Windowed.
+[2022.10.03-22.37.06:434][638]LogMaterial: Display: Missing cached shadermap for M_blood_cloud_01 in PCD3D_SM5, Default, SM5 (DDC key hash: DEFCD191B68BCD01E31D9308369CC7680E123080), compiling. 
+[2022.10.03-22.37.06:602][638]LogTexture: Display: Building textures: /Game/WeaponEffects/BloodImpact/T_BloodSplatter_Frames01.T_BloodSplatter_Frames01 (TFO_AutoDXT, 1024X512 X1X1) (Required Memory Estimate: 10.000 MB), EncodeSpeed: Fast
+[2022.10.03-22.37.06:602][638]LogTexture: Display: Building textures: /Game/WeaponEffects/BloodImpact/clouds_dust_detail_01.clouds_dust_detail_01 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.03-22.37.06:602][638]LogTexture: Display: Building textures: /Game/WeaponEffects/BloodImpact/P_blood_splash_02.P_blood_splash_02:ThumbnailTexture (TFO_DXT1, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.03-22.37.06:602][638]LogTexture: Display: Building textures: /Game/WeaponEffects/BloodImpact/T_BloodSplat_03_SubUV.T_BloodSplat_03_SubUV (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.03-22.37.06:602][638]LogMaterial: Display: Missing cached shadermap for M_blood_splash_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 06E034F70D4D1D620AF8FAFF90D11A4A72C6D732), compiling. 
+[2022.10.03-22.37.06:700][638]LogMaterial: Display: Missing cached shadermap for M_blood_splash_03 in PCD3D_SM5, Default, SM5 (DDC key hash: CCF2599E4160E0A1EC9065815406E9DBFA49FD64), compiling. 
+[2022.10.03-22.37.08:462][792]BlueprintLog: New page: Compile BP_Rifle
+[2022.10.03-22.37.08:657][792]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2022.10.03-22.37.08:750][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Rifle" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_Rifle.uasset" SILENT=true
+[2022.10.03-22.37.08:754][792]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Rifle
+[2022.10.03-22.37.08:755][792]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/BP_Rifle929B906540D0A557D2AC92B7E61AB84C.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_Rifle.uasset'
+[2022.10.03-22.37.08:775][792]AssetCheck: New page: Asset Save: BP_Rifle
+[2022.10.03-22.37.08:775][792]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Rifle.BP_Rifle
+[2022.10.03-22.37.09:307][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Rifle" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_Rifle.uasset" SILENT=true
+[2022.10.03-22.37.09:311][829]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Rifle
+[2022.10.03-22.37.09:311][829]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/BP_RifleB0B4681D49FFCFBF8B7CB689EB4EBF66.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_Rifle.uasset'
+[2022.10.03-22.37.09:339][829]AssetCheck: New page: Asset Save: BP_Rifle
+[2022.10.03-22.37.09:339][829]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Rifle.BP_Rifle
+[2022.10.03-22.37.10:726][890]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.03-22.37.10:735][890]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.03-22.37.10:735][890]PIE: New page: PIE session: TestMap (Oct 3, 2022, 4:37:10 PM)
+[2022.10.03-22.37.10:735][890]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2022.10.03-22.37.10:738][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003008s)
+[2022.10.03-22.37.10:738][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.003120s)
+[2022.10.03-22.37.10:738][890]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.03-22.37.10:738][890]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.03-22.37.10:739][890]LogAIModule: Creating AISystem for world TestMap
+[2022.10.03-22.37.10:739][890]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2022.10.03-22.37.10:823][890]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2022.10.03-22.37.10:837][890]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.10.03-22.37.10:837][890]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.03-22.37.10:837][890]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.03-22.37.10:837][890]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.03-22.37.10:837][890]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.03-22.37.10:837][890]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.03-22.37.10:837][890]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.03-22.37.10:837][890]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.03-22.37.10:837][890]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.03-22.37.10:837][890]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.03-22.37.10:837][890]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.03-22.37.10:837][890]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.03-22.37.10:839][890]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.03-22.37.10:868][890]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (2- CORSAIR HS70 PRO Wireless Gaming Headset)
+[2022.10.03-22.37.10:868][890]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.03-22.37.10:868][890]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.03-22.37.10:868][890]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.03-22.37.10:869][890]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2022.10.03-22.37.10:869][890]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=5
+[2022.10.03-22.37.10:871][890]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2022.10.03-22.37.10:871][890]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2022.10.03-22.37.10:871][890]LogInit: FAudioDevice initialized.
+[2022.10.03-22.37.10:871][890]LogAudio: Display: Audio Device (ID: 5) registered with world 'TestMap'.
+[2022.10.03-22.37.10:887][890]LogLoad: Game class is 'GameModeBase'
+[2022.10.03-22.37.10:889][890]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.03-19.37.10
+[2022.10.03-22.37.10:889][890]LogWorld: Bringing up level for play took: 0.001926
+[2022.10.03-22.37.10:891][890]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2022.10.03-22.37.10:892][890]PIE: Server logged in
+[2022.10.03-22.37.10:893][890]PIE: Play in editor total start time 0.161 seconds.
+[2022.10.03-22.37.15:389][ 11]LogShaderCompilers: Display: ================================================
+[2022.10.03-22.37.15:389][ 11]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.03-22.37.15:389][ 11]LogShaderCompilers: Display: Total job queries 339, among them cache hits 0 (0.00%)
+[2022.10.03-22.37.15:389][ 11]LogShaderCompilers: Display: Tracking 88 distinct input hashes that result in 70 distinct outputs (79.55%)
+[2022.10.03-22.37.15:389][ 11]LogShaderCompilers: Display: RAM used: 0.19 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.01%
+[2022.10.03-22.37.15:389][ 11]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.03-22.37.15:389][ 11]LogShaderCompilers: Display: Shaders Compiled: 339
+[2022.10.03-22.37.15:389][ 11]LogShaderCompilers: Display: Jobs assigned 108, completed 88 (81.48%)
+[2022.10.03-22.37.15:389][ 11]LogShaderCompilers: Display: Average time worker was idle: 165.29 s
+[2022.10.03-22.37.15:389][ 11]LogShaderCompilers: Display: Time job spent in pending queue: average 13.18 s, longest 35.08 s
+[2022.10.03-22.37.15:389][ 11]LogShaderCompilers: Display: Job execution time: average 8.55 s, max 16.31 s
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display: Job life time (pending + execution): average 23.74 s, max 36.49
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 45.28 s
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display: Jobs were issued in 16 batches (only local compilation was used), average 6.75 jobs/batch
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display: Average processing rate: 1.94 jobs/sec
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display: Effective parallelization: 1.45 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    1 times, average 1.03 sec, max 1.03 sec, min 1.03 sec)
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display:             TBasePassVSFSelfShadowedVolumetricLightmapPolicy (compiled    3 times, average 0.93 sec, max 1.14 sec, min 0.72 sec)
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display:    TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy (compiled    3 times, average 0.92 sec, max 1.02 sec, min 0.81 sec)
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    4 times, average 0.91 sec, max 1.08 sec, min 0.79 sec)
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display:     TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight (compiled    3 times, average 0.89 sec, max 1.02 sec, min 0.75 sec)
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display:    TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy - 5.79% of total time (compiled    5 times, average 0.76 sec, max 0.87 sec, min 0.64 sec)
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight - 5.55% of total time (compiled    4 times, average 0.91 sec, max 1.08 sec, min 0.79 sec)
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.27% of total time (compiled    4 times, average 0.87 sec, max 1.09 sec, min 0.65 sec)
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy - 5.20% of total time (compiled    4 times, average 0.86 sec, max 1.10 sec, min 0.66 sec)
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display:             TBasePassVSFSelfShadowedVolumetricLightmapPolicy - 4.24% of total time (compiled    3 times, average 0.93 sec, max 1.14 sec, min 0.72 sec)
+[2022.10.03-22.37.15:390][ 11]LogShaderCompilers: Display: ================================================
+[2022.10.03-22.37.21:819][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.03-22.37.21:819][281]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestMap
+[2022.10.03-22.37.21:820][281]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-22.37.21:820][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.03-22.37.21:858][281]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.03-22.37.21:864][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.03-22.37.21:915][281]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.03-22.37.21:915][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.10.03-22.37.21:917][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.10.03-22.37.21:921][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.03-22.37.21:923][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.10.03-22.37.22:041][282]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.10.03-22.37.27:969][579]BlueprintLog: New page: Compile BP_Rifle
+[2022.10.03-22.37.28:077][579]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2022.10.03-22.37.28:572][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Rifle" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_Rifle.uasset" SILENT=true
+[2022.10.03-22.37.28:575][609]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Rifle
+[2022.10.03-22.37.28:575][609]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/BP_Rifle194CAB9F473712B9948B7C8D28284A5C.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_Rifle.uasset'
+[2022.10.03-22.37.28:591][609]AssetCheck: New page: Asset Save: BP_Rifle
+[2022.10.03-22.37.28:591][609]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Rifle.BP_Rifle
+[2022.10.03-22.37.43:226][856]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.03-22.37.43:233][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.03-22.37.43:233][856]PIE: New page: PIE session: TestMap (Oct 3, 2022, 4:37:43 PM)
+[2022.10.03-22.37.43:233][856]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2022.10.03-22.37.43:236][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002866s)
+[2022.10.03-22.37.43:236][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.003011s)
+[2022.10.03-22.37.43:237][856]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.03-22.37.43:237][856]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.03-22.37.43:237][856]LogAIModule: Creating AISystem for world TestMap
+[2022.10.03-22.37.43:238][856]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2022.10.03-22.37.43:296][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.10.03-22.37.43:299][856]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.10.03-22.37.43:299][856]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.03-22.37.43:299][856]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.03-22.37.43:299][856]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.03-22.37.43:299][856]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.03-22.37.43:299][856]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.03-22.37.43:299][856]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.03-22.37.43:299][856]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.03-22.37.43:299][856]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.03-22.37.43:300][856]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.03-22.37.43:300][856]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.03-22.37.43:300][856]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.03-22.37.43:302][856]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.03-22.37.43:330][856]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (2- CORSAIR HS70 PRO Wireless Gaming Headset)
+[2022.10.03-22.37.43:330][856]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.03-22.37.43:330][856]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.03-22.37.43:330][856]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.03-22.37.43:331][856]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2022.10.03-22.37.43:331][856]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=6
+[2022.10.03-22.37.43:333][856]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2022.10.03-22.37.43:333][856]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2022.10.03-22.37.43:333][856]LogInit: FAudioDevice initialized.
+[2022.10.03-22.37.43:333][856]LogAudio: Display: Audio Device (ID: 6) registered with world 'TestMap'.
+[2022.10.03-22.37.43:348][856]LogLoad: Game class is 'GameModeBase'
+[2022.10.03-22.37.43:350][856]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.03-19.37.43
+[2022.10.03-22.37.43:351][856]LogWorld: Bringing up level for play took: 0.002168
+[2022.10.03-22.37.43:353][856]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2022.10.03-22.37.43:355][856]PIE: Server logged in
+[2022.10.03-22.37.43:356][856]PIE: Play in editor total start time 0.123 seconds.
+[2022.10.03-22.38.11:049][814]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.03-22.38.11:050][814]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestMap
+[2022.10.03-22.38.11:050][814]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-22.38.11:050][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.03-22.38.11:074][814]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.03-22.38.11:080][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.03-22.38.11:136][814]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.03-22.38.11:136][814]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.10.03-22.38.11:138][814]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.10.03-22.38.11:146][814]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.10.03-22.38.11:214][815]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2022.10.03-22.38.12:401][871]Candidate modules for hot reload:
+[2022.10.03-22.38.12:401][871]  CoopHordeGame
+[2022.10.03-22.38.12:406][871]Launching UnrealBuildTool... [D:/Programas/Epic/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=CoopHordeGame,7207 CoopHordeGameEditor Win64 Development -Project="D:/GitUE/CoopHordeGame/CoopHordeGame/CoopHordeGame.uproject" "D:/GitUE/CoopHordeGame/CoopHordeGame/CoopHordeGame.uproject"  -IgnoreJunk]
+[2022.10.03-22.38.12:410][871]Warning: Starting HotReload took  0.1s.
+[2022.10.03-22.38.16:364][ 54]CompilerResultsLog: New page: Compilation - Oct 3, 2022, 4:38:16 PM
+[2022.10.03-22.38.16:364][ 54]CompilerResultsLog: Log file: C:\Users\lg_pi\AppData\Local\UnrealBuildTool\Log.txt
+[2022.10.03-22.38.16:364][ 54]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitUE\CoopHordeGame).
+[2022.10.03-22.38.16:365][ 54]CompilerResultsLog: Building CoopHordeGameEditor...
+[2022.10.03-22.38.16:365][ 54]CompilerResultsLog: Using Visual Studio 2019 14.29.30138 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.10.03-22.38.16:365][ 54]CompilerResultsLog: [Adaptive Build] Excluded from CoopHordeGame unity file: SWeapon.cpp
+[2022.10.03-22.38.16:365][ 54]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 6 logical cores)
+[2022.10.03-22.38.16:365][ 54]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2022.10.03-22.38.16:365][ 54]CompilerResultsLog: Building 3 actions with 3 processes...
+[2022.10.03-22.38.16:365][ 54]CompilerResultsLog: [1/3] Link UnrealEditor-CoopHordeGame-7207.lib
+[2022.10.03-22.38.16:365][ 54]CompilerResultsLog:    Creating library D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame-7207.lib and object D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame-7207.exp
+[2022.10.03-22.38.16:365][ 54]CompilerResultsLog: [2/3] Link UnrealEditor-CoopHordeGame-7207.dll
+[2022.10.03-22.38.16:365][ 54]CompilerResultsLog:    Creating library D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame-7207.suppressed.lib and object D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame-7207.suppressed.exp
+[2022.10.03-22.38.16:365][ 54]CompilerResultsLog: [3/3] WriteMetadata CoopHordeGameEditor.target
+[2022.10.03-22.38.16:365][ 54]CompilerResultsLog: Total time in Parallel executor: 2.32 seconds
+[2022.10.03-22.38.16:365][ 54]CompilerResultsLog: Total execution time: 3.81 seconds
+[2022.10.03-22.38.16:365][ 54]LogMainFrame: MainFrame: Module compiling took 4.007 seconds
+[2022.10.03-22.38.16:700][ 54]Display: HotReload took  4.3s.
+[2022.10.03-22.38.16:700][ 54]Display: Reload/Re-instancing Complete: 1 package changed, 3 classes unchanged, 1 function remapped
+[2022.10.03-22.38.20:029][199]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.03-22.38.20:037][199]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.03-22.38.20:037][199]PIE: New page: PIE session: TestMap (Oct 3, 2022, 4:38:20 PM)
+[2022.10.03-22.38.20:037][199]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2022.10.03-22.38.20:040][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002903s)
+[2022.10.03-22.38.20:040][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.003007s)
+[2022.10.03-22.38.20:040][199]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.03-22.38.20:040][199]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.03-22.38.20:040][199]LogAIModule: Creating AISystem for world TestMap
+[2022.10.03-22.38.20:041][199]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2022.10.03-22.38.20:128][199]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2022.10.03-22.38.20:135][199]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.10.03-22.38.20:135][199]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.03-22.38.20:135][199]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.03-22.38.20:135][199]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.03-22.38.20:135][199]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.03-22.38.20:135][199]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.03-22.38.20:135][199]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.03-22.38.20:135][199]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.03-22.38.20:135][199]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.03-22.38.20:136][199]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.03-22.38.20:136][199]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.03-22.38.20:136][199]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.03-22.38.20:138][199]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.03-22.38.20:166][199]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (2- CORSAIR HS70 PRO Wireless Gaming Headset)
+[2022.10.03-22.38.20:166][199]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.03-22.38.20:166][199]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.03-22.38.20:167][199]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.03-22.38.20:167][199]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2022.10.03-22.38.20:167][199]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=7
+[2022.10.03-22.38.20:169][199]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2022.10.03-22.38.20:169][199]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2022.10.03-22.38.20:169][199]LogInit: FAudioDevice initialized.
+[2022.10.03-22.38.20:169][199]LogAudio: Display: Audio Device (ID: 7) registered with world 'TestMap'.
+[2022.10.03-22.38.20:183][199]LogLoad: Game class is 'GameModeBase'
+[2022.10.03-22.38.20:184][199]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.03-19.38.20
+[2022.10.03-22.38.20:185][199]LogWorld: Bringing up level for play took: 0.001780
+[2022.10.03-22.38.20:187][199]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2022.10.03-22.38.20:188][199]PIE: Server logged in
+[2022.10.03-22.38.20:189][199]PIE: Play in editor total start time 0.153 seconds.
+[2022.10.03-22.38.47:627][110]LogViewport: Scene viewport resized to 1489x815, mode Windowed.
+[2022.10.03-22.38.54:559][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.03-22.38.54:559][447]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestMap
+[2022.10.03-22.38.54:560][447]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-22.38.54:560][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.03-22.38.54:601][447]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.03-22.38.54:609][447]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.03-22.38.54:664][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.03-22.38.54:665][447]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.10.03-22.38.54:666][447]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.10.03-22.38.54:680][447]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2022.10.03-22.38.54:756][448]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2022.10.03-22.38.57:993][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2022.10.03-22.38.58:036][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestMap" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.10.03-22.38.58:090][538]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.10.03-22.38.58:097][538]LogSavePackage: Moving output files for package: /Game/TestMap
+[2022.10.03-22.38.58:098][538]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/TestMap9FBCF1314485BAA83E3932BB1E182EFC.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/TestMap.umap'
+[2022.10.03-22.38.58:141][538]LogFileHelpers: No new changes to save!
+[2022.10.03-22.38.58:141][538]LogFileHelpers: Saving map 'TestMap' took 0.105
+[2022.10.03-22.38.58:157][538]AssetCheck: New page: Asset Save: TestMap
+[2022.10.03-22.38.58:157][538]LogContentValidation: Display: Validating World /Game/TestMap.TestMap
+[2022.10.03-22.38.59:368][590]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.03-22.38.59:375][590]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.03-22.38.59:375][590]PIE: New page: PIE session: TestMap (Oct 3, 2022, 4:38:59 PM)
+[2022.10.03-22.38.59:375][590]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2022.10.03-22.38.59:378][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002423s)
+[2022.10.03-22.38.59:378][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.002530s)
+[2022.10.03-22.38.59:378][590]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.03-22.38.59:378][590]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.03-22.38.59:378][590]LogAIModule: Creating AISystem for world TestMap
+[2022.10.03-22.38.59:379][590]LogPlayLevel: PIE: World Init took: (0.000918s)
+[2022.10.03-22.38.59:442][590]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.10.03-22.38.59:443][590]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.10.03-22.38.59:443][590]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.03-22.38.59:443][590]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.03-22.38.59:443][590]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.03-22.38.59:443][590]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.03-22.38.59:443][590]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.03-22.38.59:443][590]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.03-22.38.59:443][590]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.03-22.38.59:443][590]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.03-22.38.59:444][590]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.03-22.38.59:444][590]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.03-22.38.59:444][590]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.03-22.38.59:446][590]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.03-22.38.59:473][590]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (2- CORSAIR HS70 PRO Wireless Gaming Headset)
+[2022.10.03-22.38.59:473][590]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.03-22.38.59:473][590]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.03-22.38.59:473][590]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.03-22.38.59:474][590]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2022.10.03-22.38.59:474][590]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=8
+[2022.10.03-22.38.59:476][590]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2022.10.03-22.38.59:476][590]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2022.10.03-22.38.59:476][590]LogInit: FAudioDevice initialized.
+[2022.10.03-22.38.59:476][590]LogAudio: Display: Audio Device (ID: 8) registered with world 'TestMap'.
+[2022.10.03-22.38.59:488][590]LogLoad: Game class is 'GameModeBase'
+[2022.10.03-22.38.59:490][590]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.03-19.38.59
+[2022.10.03-22.38.59:490][590]LogWorld: Bringing up level for play took: 0.001864
+[2022.10.03-22.38.59:492][590]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2022.10.03-22.38.59:493][590]PIE: Server logged in
+[2022.10.03-22.38.59:494][590]PIE: Play in editor total start time 0.119 seconds.
+[2022.10.03-22.39.07:239][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.03-22.39.07:239][942]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestMap
+[2022.10.03-22.39.07:239][942]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-22.39.07:240][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.03-22.39.07:269][942]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.03-22.39.07:276][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.03-22.39.07:331][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.03-22.39.07:332][942]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2022.10.03-22.39.07:333][942]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2022.10.03-22.39.07:341][942]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.10.03-22.39.07:374][943]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2022.10.03-22.40.01:907][250]LogViewport: Scene viewport resized to 1525x1229, mode Windowed.
+[2022.10.03-22.40.02:990][318]BlueprintLog: New page: Compile PlayerPawn
+[2022.10.03-22.40.03:083][318]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.10.03-22.40.03:736][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/PlayerPawn.uasset" SILENT=true
+[2022.10.03-22.40.03:742][370]LogSavePackage: Moving output files for package: /Game/Blueprints/PlayerPawn
+[2022.10.03-22.40.03:743][370]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/PlayerPawn8C84B47B4DC5628D066958A6E457DCF0.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/PlayerPawn.uasset'
+[2022.10.03-22.40.03:760][370]AssetCheck: New page: Asset Save: PlayerPawn
+[2022.10.03-22.40.03:760][370]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PlayerPawn.PlayerPawn
+[2022.10.03-22.40.04:782][452]LogViewport: Scene viewport resized to 764x600, mode Windowed.
+[2022.10.03-22.40.04:799][452]LogViewport: Scene viewport resized to 1783x725, mode Windowed.
+[2022.10.03-22.40.04:818][452]LogViewport: Scene viewport resized to 1783x400, mode Windowed.
+[2022.10.03-22.40.05:522][505]LogViewport: Scene viewport resized to 1525x1229, mode Windowed.
+[2022.10.03-22.40.06:501][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Rifle" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_Rifle.uasset" SILENT=true
+[2022.10.03-22.40.06:504][572]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Rifle
+[2022.10.03-22.40.06:505][572]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/BP_Rifle0B8CDC444EB7DF581905658DF16C572F.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_Rifle.uasset'
+[2022.10.03-22.40.06:534][572]AssetCheck: New page: Asset Save: BP_Rifle
+[2022.10.03-22.40.06:534][572]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Rifle.BP_Rifle
+[2022.10.03-22.40.07:031][615]BlueprintLog: New page: Compile BP_Rifle
+[2022.10.03-22.40.07:112][615]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2022.10.03-22.40.07:737][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Rifle" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_Rifle.uasset" SILENT=true
+[2022.10.03-22.40.07:740][655]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Rifle
+[2022.10.03-22.40.07:740][655]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/BP_RifleA8C50E39423E076E816B1E92204B5070.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_Rifle.uasset'
+[2022.10.03-22.40.07:756][655]AssetCheck: New page: Asset Save: BP_Rifle
+[2022.10.03-22.40.07:756][655]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Rifle.BP_Rifle
+[2022.10.03-22.40.10:586][806]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.03-22.40.10:593][806]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.03-22.40.10:594][806]PIE: New page: PIE session: TestMap (Oct 3, 2022, 4:40:10 PM)
+[2022.10.03-22.40.10:594][806]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2022.10.03-22.40.10:596][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002078s)
+[2022.10.03-22.40.10:596][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.002172s)
+[2022.10.03-22.40.10:596][806]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.03-22.40.10:596][806]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.03-22.40.10:596][806]LogAIModule: Creating AISystem for world TestMap
+[2022.10.03-22.40.10:597][806]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2022.10.03-22.40.10:656][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.10.03-22.40.10:657][806]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.10.03-22.40.10:657][806]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.03-22.40.10:657][806]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.03-22.40.10:657][806]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.03-22.40.10:657][806]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.03-22.40.10:657][806]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.03-22.40.10:657][806]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.03-22.40.10:657][806]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.03-22.40.10:657][806]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.03-22.40.10:658][806]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.03-22.40.10:658][806]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.03-22.40.10:658][806]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.03-22.40.10:660][806]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.03-22.40.10:687][806]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (2- CORSAIR HS70 PRO Wireless Gaming Headset)
+[2022.10.03-22.40.10:687][806]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.03-22.40.10:687][806]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.03-22.40.10:687][806]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.03-22.40.10:688][806]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2022.10.03-22.40.10:688][806]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=9
+[2022.10.03-22.40.10:690][806]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2022.10.03-22.40.10:690][806]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2022.10.03-22.40.10:690][806]LogInit: FAudioDevice initialized.
+[2022.10.03-22.40.10:690][806]LogAudio: Display: Audio Device (ID: 9) registered with world 'TestMap'.
+[2022.10.03-22.40.10:702][806]LogLoad: Game class is 'GameModeBase'
+[2022.10.03-22.40.10:703][806]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.03-19.40.10
+[2022.10.03-22.40.10:704][806]LogWorld: Bringing up level for play took: 0.001940
+[2022.10.03-22.40.10:706][806]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2022.10.03-22.40.10:707][806]PIE: Server logged in
+[2022.10.03-22.40.10:708][806]PIE: Play in editor total start time 0.115 seconds.
+[2022.10.03-22.40.26:969][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.03-22.40.26:969][571]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestMap
+[2022.10.03-22.40.26:970][571]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-22.40.26:970][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.03-22.40.26:989][571]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.03-22.40.26:997][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.03-22.40.27:051][571]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.03-22.40.27:052][571]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2022.10.03-22.40.27:053][571]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2022.10.03-22.40.27:057][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.03-22.40.27:061][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.10.03-22.40.27:145][572]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2022.10.03-22.40.37:180][449]BlueprintLog: New page: Compile PlayerPawn
+[2022.10.03-22.40.37:280][449]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2022.10.03-22.40.37:335][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/PlayerPawn.uasset" SILENT=true
+[2022.10.03-22.40.37:341][449]LogSavePackage: Moving output files for package: /Game/Blueprints/PlayerPawn
+[2022.10.03-22.40.37:342][449]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/PlayerPawn28F2FB544FF8622A3D579CBD0C953D31.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/PlayerPawn.uasset'
+[2022.10.03-22.40.37:358][449]AssetCheck: New page: Asset Save: PlayerPawn
+[2022.10.03-22.40.37:358][449]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PlayerPawn.PlayerPawn
+[2022.10.03-22.40.37:725][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/PlayerPawn.uasset" SILENT=true
+[2022.10.03-22.40.37:732][477]LogSavePackage: Moving output files for package: /Game/Blueprints/PlayerPawn
+[2022.10.03-22.40.37:732][477]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/PlayerPawnE2C6A8AE418E40EE9617DF8E86AAE708.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/PlayerPawn.uasset'
+[2022.10.03-22.40.37:757][477]AssetCheck: New page: Asset Save: PlayerPawn
+[2022.10.03-22.40.37:757][477]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PlayerPawn.PlayerPawn
+[2022.10.03-22.40.39:250][546]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.03-22.40.39:258][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.03-22.40.39:258][546]PIE: New page: PIE session: TestMap (Oct 3, 2022, 4:40:39 PM)
+[2022.10.03-22.40.39:258][546]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2022.10.03-22.40.39:260][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002512s)
+[2022.10.03-22.40.39:260][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.002616s)
+[2022.10.03-22.40.39:260][546]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.03-22.40.39:261][546]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.03-22.40.39:261][546]LogAIModule: Creating AISystem for world TestMap
+[2022.10.03-22.40.39:261][546]LogPlayLevel: PIE: World Init took: (0.000980s)
+[2022.10.03-22.40.39:320][546]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.10.03-22.40.39:322][546]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.10.03-22.40.39:322][546]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.03-22.40.39:322][546]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.03-22.40.39:322][546]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.03-22.40.39:322][546]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.03-22.40.39:322][546]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.03-22.40.39:322][546]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.03-22.40.39:322][546]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.03-22.40.39:322][546]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.03-22.40.39:323][546]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.03-22.40.39:323][546]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.03-22.40.39:323][546]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.03-22.40.39:325][546]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.03-22.40.39:354][546]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (2- CORSAIR HS70 PRO Wireless Gaming Headset)
+[2022.10.03-22.40.39:355][546]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.03-22.40.39:355][546]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.03-22.40.39:355][546]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.03-22.40.39:356][546]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2022.10.03-22.40.39:356][546]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=10
+[2022.10.03-22.40.39:358][546]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2022.10.03-22.40.39:358][546]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2022.10.03-22.40.39:358][546]LogInit: FAudioDevice initialized.
+[2022.10.03-22.40.39:358][546]LogAudio: Display: Audio Device (ID: 10) registered with world 'TestMap'.
+[2022.10.03-22.40.39:369][546]LogLoad: Game class is 'GameModeBase'
+[2022.10.03-22.40.39:370][546]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.03-19.40.39
+[2022.10.03-22.40.39:371][546]LogWorld: Bringing up level for play took: 0.001670
+[2022.10.03-22.40.39:373][546]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2022.10.03-22.40.39:374][546]PIE: Server logged in
+[2022.10.03-22.40.39:375][546]PIE: Play in editor total start time 0.117 seconds.
+[2022.10.03-22.40.46:271][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.03-22.40.46:271][874]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestMap
+[2022.10.03-22.40.46:271][874]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-22.40.46:271][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.03-22.40.46:286][874]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.03-22.40.46:293][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.03-22.40.46:346][874]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.03-22.40.46:346][874]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.10.03-22.40.46:348][874]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.10.03-22.40.46:351][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.03-22.40.46:354][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2022.10.03-22.40.46:417][875]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2022.10.03-22.40.59:288][180]LogViewport: Scene viewport resized to 757x557, mode Windowed.
+[2022.10.03-22.40.59:872][180]LogViewport: Scene viewport resized to 754x1223, mode Windowed.
+[2022.10.03-22.41.01:846][373]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.10.03-22.41.06:621][721]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Weapons/SK_Rifle.SK_Rifle
+[2022.10.03-22.41.06:729][721]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.03-22.41.07:074][721]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2022.10.03-22.41.07:177][721]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.10.03-22.41.07:825][721]LogViewport: Scene viewport resized to 754x1212, mode Windowed.
+[2022.10.03-22.41.25:727][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/SK_Rifle" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Weapons/SK_Rifle.uasset" SILENT=true
+[2022.10.03-22.41.25:761][951]LogSavePackage: Moving output files for package: /Game/Weapons/SK_Rifle
+[2022.10.03-22.41.25:762][951]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/SK_Rifle24488CCF4BE95E888166B58492B77BEA.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Weapons/SK_Rifle.uasset'
+[2022.10.03-22.41.25:798][951]AssetCheck: New page: Asset Save: SK_Rifle
+[2022.10.03-22.41.25:798][951]LogContentValidation: Display: Validating SkeletalMesh /Game/Weapons/SK_Rifle.SK_Rifle
+[2022.10.03-22.41.26:489][  4]LogViewport: Scene viewport resized to 735x811, mode Windowed.
+[2022.10.03-22.41.27:956][ 63]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.03-22.41.27:964][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.03-22.41.27:964][ 63]PIE: New page: PIE session: TestMap (Oct 3, 2022, 4:41:27 PM)
+[2022.10.03-22.41.27:964][ 63]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2022.10.03-22.41.27:967][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002470s)
+[2022.10.03-22.41.27:967][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.002562s)
+[2022.10.03-22.41.27:967][ 63]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.03-22.41.27:967][ 63]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.03-22.41.27:967][ 63]LogAIModule: Creating AISystem for world TestMap
+[2022.10.03-22.41.27:968][ 63]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2022.10.03-22.41.28:073][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2022.10.03-22.41.28:076][ 63]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.10.03-22.41.28:076][ 63]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.03-22.41.28:076][ 63]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.03-22.41.28:076][ 63]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.03-22.41.28:076][ 63]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.03-22.41.28:076][ 63]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.03-22.41.28:076][ 63]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.03-22.41.28:076][ 63]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.03-22.41.28:076][ 63]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.03-22.41.28:077][ 63]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.03-22.41.28:077][ 63]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.03-22.41.28:077][ 63]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.03-22.41.28:079][ 63]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.03-22.41.28:107][ 63]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (2- CORSAIR HS70 PRO Wireless Gaming Headset)
+[2022.10.03-22.41.28:107][ 63]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.03-22.41.28:107][ 63]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.03-22.41.28:107][ 63]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.03-22.41.28:109][ 63]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2022.10.03-22.41.28:109][ 63]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=11
+[2022.10.03-22.41.28:111][ 63]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2022.10.03-22.41.28:111][ 63]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2022.10.03-22.41.28:111][ 63]LogInit: FAudioDevice initialized.
+[2022.10.03-22.41.28:111][ 63]LogAudio: Display: Audio Device (ID: 11) registered with world 'TestMap'.
+[2022.10.03-22.41.28:126][ 63]LogLoad: Game class is 'GameModeBase'
+[2022.10.03-22.41.28:127][ 63]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.03-19.41.28
+[2022.10.03-22.41.28:128][ 63]LogWorld: Bringing up level for play took: 0.001783
+[2022.10.03-22.41.28:130][ 63]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2022.10.03-22.41.28:131][ 63]PIE: Server logged in
+[2022.10.03-22.41.28:132][ 63]PIE: Play in editor total start time 0.168 seconds.
+[2022.10.03-22.41.38:309][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.03-22.41.38:309][551]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestMap
+[2022.10.03-22.41.38:309][551]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.03-22.41.38:310][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.03-22.41.38:333][551]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.03-22.41.38:341][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.03-22.41.38:397][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.03-22.41.38:400][551]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.10.03-22.41.38:402][551]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.10.03-22.41.38:438][551]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.10.03-22.41.38:580][552]LogPlayLevel: Display: Destroying online subsystem :Context_28

@@ -4,6 +4,7 @@
 #include "SWeapon.h"
 #include "DrawDebugHelpers.h"
 #include "Kismet/GameplayStatics.h"
+#include "Particles/ParticleSystem.h"
 
 // Sets default values
 ASWeapon::ASWeapon()
@@ -13,6 +14,8 @@ ASWeapon::ASWeapon()
 
 	MeshComponent = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("MeshComponent"));
 	RootComponent = MeshComponent;
+
+	MuzzleSocketName = "MuzzleSocket";
 }
 
 // Called when the game starts or when spawned
@@ -24,9 +27,9 @@ void ASWeapon::BeginPlay()
 void ASWeapon::Fire()
 {
 	//trace the world from pawn eyes to crosshair location
-	
+
 	AActor* MyOwner = GetOwner();
-	
+
 	if (MyOwner)
 	{
 		FVector EyeLocation;
@@ -47,10 +50,22 @@ void ASWeapon::Fire()
 			//Blocking hit Process damage
 			AActor* HitActor = Hit.GetActor();
 
-			UGameplayStatics::ApplyPointDamage(HitActor,20.f,ShotDirection,Hit,MyOwner->GetInstigatorController(),this,DamageType);
+			UGameplayStatics::ApplyPointDamage(HitActor, 20.f, ShotDirection, Hit, MyOwner->GetInstigatorController(),
+			                                   this, DamageType);
+
+			if (ImpactEffect)
+			{
+				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactEffect, Hit.ImpactPoint,
+				                                         Hit.ImpactNormal.Rotation());
+			}
 		}
 
-		DrawDebugLine(GetWorld(),EyeLocation,TraceEnd,FColor::Red,false,1.0f,0,1.0f);
+		DrawDebugLine(GetWorld(), EyeLocation, TraceEnd, FColor::Red, false, 1.0f, 0, 1.0f);
+
+		if (MuzzleEffect)
+		{
+			UGameplayStatics::SpawnEmitterAttached(MuzzleEffect, MeshComponent, MuzzleSocketName);
+		}
 	}
 }
 
