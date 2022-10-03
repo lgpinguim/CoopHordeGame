@@ -19,7 +19,11 @@
             "d:\\programas\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gameplaystatics.generated.h",
             "d:\\programas\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\particles\\particlesystem.h",
             "d:\\programas\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\particles\\particleperfstats.h",
-            "d:\\programas\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\particlesystem.generated.h"
+            "d:\\programas\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\particlesystem.generated.h",
+            "d:\\programas\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\particles\\particlesystemcomponent.h",
+            "d:\\programas\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\particles\\emitter.h",
+            "d:\\programas\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\emitter.generated.h",
+            "d:\\programas\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\particlesystemcomponent.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
