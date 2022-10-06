@@ -46,7 +46,7 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 		{ "ModuleRelativePath", "Public/SWeapon.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ASWeapon_Fire_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASWeapon, nullptr, "Fire", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASWeapon_Fire_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ASWeapon_Fire_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ASWeapon_Fire_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASWeapon, nullptr, "Fire", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASWeapon_Fire_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ASWeapon_Fire_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_ASWeapon_Fire()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -105,7 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_CoopHordeGame,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ASWeapon_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ASWeapon_Fire, "Fire" }, // 3924088994
+		{ &Z_Construct_UFunction_ASWeapon_Fire, "Fire" }, // 2387542006
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASWeapon_Statics::Class_MetaDataParams[] = {
@@ -208,9 +208,9 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SWeapon_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ASWeapon, ASWeapon::StaticClass, TEXT("ASWeapon"), &Z_Registration_Info_UClass_ASWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASWeapon), 1196930759U) },
+		{ Z_Construct_UClass_ASWeapon, ASWeapon::StaticClass, TEXT("ASWeapon"), &Z_Registration_Info_UClass_ASWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASWeapon), 3309110225U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SWeapon_h_742601696(TEXT("/Script/CoopHordeGame"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SWeapon_h_2134946242(TEXT("/Script/CoopHordeGame"),
 		Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SWeapon_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SWeapon_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

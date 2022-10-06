@@ -1457,6 +1457,9 @@
     <ClCompile Include="..\..\Source\CoopHordeGame\Private\SCharacter.cpp">
       <Filter>Source\CoopHordeGame\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\CoopHordeGame\Private\SProjectileWeapon.cpp">
+      <Filter>Source\CoopHordeGame\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\CoopHordeGame\Private\SWeapon.cpp">
       <Filter>Source\CoopHordeGame\Private</Filter>
     </ClCompile>
@@ -1464,6 +1467,9 @@
       <UniqueIdentifier>{3F97B437-E47C-38BA-8C13-B1A36CE14405}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\CoopHordeGame\Public\SCharacter.h">
+      <Filter>Source\CoopHordeGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CoopHordeGame\Public\SProjectileWeapon.h">
       <Filter>Source\CoopHordeGame\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\CoopHordeGame\Public\SWeapon.h">
