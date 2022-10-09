@@ -2407,3 +2407,89 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.10.09-20.23.07:954][ 80]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
 [2022.10.09-20.23.07:963][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
 [2022.10.09-20.23.08:015][ 81]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2022.10.09-20.34.13:333][265]LogDerivedDataCache: C:/Users/lg_pi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.344 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.09-20.44.41:201][218]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2022.10.09-20.44.41:217][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestMap" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/Autosaves/Game/TestMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.10.09-20.44.41:225][218]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/TestMap_Auto2
+[2022.10.09-20.44.41:225][218]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/TestMap_Auto24C4FCCF6470CD51453C3D8A0EA14B222.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/Autosaves/Game/TestMap_Auto2.umap'
+[2022.10.09-20.44.41:236][218]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TestMap' took 0.141
+[2022.10.09-20.44.41:236][218]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.141
+[2022.10.09-20.44.41:257][218]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton] ([1] browsable assets)...
+[2022.10.09-20.44.41:474][218]OBJ SavePackage:     Rendered thumbnail for [Skeleton /Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton]
+[2022.10.09-20.44.41:474][218]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton]
+[2022.10.09-20.44.41:476][218]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton_Auto2
+[2022.10.09-20.44.41:476][218]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/UE4_Mannequin_Skeleton_Auto26FC9C7584FC8435F16214EBC56B6891A.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/Autosaves/Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton_Auto2.uasset'
+[2022.10.09-20.44.41:478][218]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A] ([1] browsable assets)...
+[2022.10.09-20.44.41:478][218]OBJ SavePackage: Finished generating thumbnails for package [/Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A]
+[2022.10.09-20.44.41:488][218]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A_Auto2
+[2022.10.09-20.44.41:488][218]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/Assault_Rifle_A_Auto21A10A1B34A0A1D8E824DDB9E8479A63F.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/Autosaves/Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A_Auto2.uasset'
+[2022.10.09-20.44.41:488][218]LogFileHelpers: Auto-saving content packages took 0.253
+[2022.10.09-20.44.41:879][221]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.10.09-20.47.05:293][649]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.10.09-20.49.32:813][ 88]LogHotReload: New module detected: UnrealEditor-CoopHordeGame-0031.dll
+[2022.10.09-20.49.33:833][ 92]LogHotReload: Starting Hot-Reload from IDE
+[2022.10.09-20.49.34:273][ 92]Display: HotReload took  0.4s.
+[2022.10.09-20.49.34:273][ 92]Display: Reload/Re-instancing Complete: 1 package changed, 4 classes unchanged, 1 function remapped
+[2022.10.09-20.50.03:925][180]LogHotReload: New module detected: UnrealEditor-CoopHordeGame-0032.dll
+[2022.10.09-20.50.05:263][185]LogHotReload: Starting Hot-Reload from IDE
+[2022.10.09-20.50.05:612][185]Display: HotReload took  0.3s.
+[2022.10.09-20.50.05:612][185]Display: Reload/Re-instancing Complete: 1 package changed, 4 classes unchanged, 1 function remapped
+[2022.10.09-20.50.09:752][205]LogViewport: Scene viewport resized to 739x376, mode Windowed.
+[2022.10.09-20.50.10:431][205]LogViewport: Scene viewport resized to 735x811, mode Windowed.
+[2022.10.09-20.50.11:851][210]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.09-20.50.11:859][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.09-20.50.11:859][210]PIE: New page: PIE session: TestMap (Oct 9, 2022, 2:50:11 PM)
+[2022.10.09-20.50.11:859][210]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2022.10.09-20.50.11:861][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002369s)
+[2022.10.09-20.50.11:861][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.002475s)
+[2022.10.09-20.50.11:861][210]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.09-20.50.11:862][210]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.09-20.50.11:862][210]LogAIModule: Creating AISystem for world TestMap
+[2022.10.09-20.50.11:862][210]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2022.10.09-20.50.11:999][210]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2022.10.09-20.50.12:000][210]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.10.09-20.50.12:000][210]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.09-20.50.12:000][210]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.09-20.50.12:000][210]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.09-20.50.12:000][210]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.09-20.50.12:000][210]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.09-20.50.12:000][210]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.09-20.50.12:000][210]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.09-20.50.12:000][210]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.09-20.50.12:001][210]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.09-20.50.12:001][210]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.09-20.50.12:001][210]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.09-20.50.12:003][210]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.09-20.50.12:033][210]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (CORSAIR HS70 PRO Wireless Gaming Headset)
+[2022.10.09-20.50.12:033][210]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.09-20.50.12:033][210]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.09-20.50.12:033][210]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.09-20.50.12:034][210]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2022.10.09-20.50.12:034][210]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=22
+[2022.10.09-20.50.12:036][210]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2022.10.09-20.50.12:036][210]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2022.10.09-20.50.12:036][210]LogInit: FAudioDevice initialized.
+[2022.10.09-20.50.12:036][210]LogAudio: Display: Audio Device (ID: 22) registered with world 'TestMap'.
+[2022.10.09-20.50.12:049][210]LogLoad: Game class is 'GameModeBase'
+[2022.10.09-20.50.12:051][210]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.10.09-17.50.12
+[2022.10.09-20.50.12:051][210]LogWorld: Bringing up level for play took: 0.002413
+[2022.10.09-20.50.12:053][210]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2022.10.09-20.50.12:055][210]PIE: Server logged in
+[2022.10.09-20.50.12:056][210]PIE: Play in editor total start time 0.198 seconds.
+[2022.10.09-20.51.26:738][256]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.09-20.51.26:738][256]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestMap
+[2022.10.09-20.51.26:738][256]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.09-20.51.26:739][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.09-20.51.26:751][256]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.09-20.51.26:761][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.09-20.51.26:829][256]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.09-20.51.26:830][256]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.10.09-20.51.26:831][256]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.10.09-20.51.26:839][256]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2022.10.09-20.51.26:920][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.09-20.51.26:921][257]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2022.10.09-20.51.26:924][257]LogSlate: Took 0.000684 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.10.09-20.51.26:931][257]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.10.09-20.51.26:932][257]LogSlate: Took 0.000465 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.10.09-20.51.26:935][257]LogSlate: Took 0.000504 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.10.09-20.51.26:939][257]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
