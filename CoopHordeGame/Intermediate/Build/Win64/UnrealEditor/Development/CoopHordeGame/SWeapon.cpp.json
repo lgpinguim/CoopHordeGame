@@ -23,7 +23,12 @@
             "d:\\programas\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\particles\\particlesystemcomponent.h",
             "d:\\programas\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\particles\\emitter.h",
             "d:\\programas\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\emitter.generated.h",
-            "d:\\programas\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\particlesystemcomponent.generated.h"
+            "d:\\programas\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\particlesystemcomponent.generated.h",
+            "d:\\programas\\epic\\ue_5.0\\engine\\source\\runtime\\physicscore\\public\\physicalmaterials\\physicalmaterial.h",
+            "d:\\programas\\epic\\ue_5.0\\engine\\source\\runtime\\physicscore\\public\\physicssettingsenums.h",
+            "d:\\programas\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\physicscore\\physicssettingsenums.generated.h",
+            "d:\\programas\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\physicscore\\physicalmaterial.generated.h",
+            "d:\\gitue\\coophordegame\\coophordegame\\source\\coophordegame\\coophordegame.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

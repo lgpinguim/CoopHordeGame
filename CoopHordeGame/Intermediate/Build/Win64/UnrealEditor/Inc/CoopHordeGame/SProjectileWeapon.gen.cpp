@@ -95,9 +95,9 @@ void EmptyLinkFunctionForGeneratedCodeSProjectileWeapon() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SProjectileWeapon_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ASProjectileWeapon, ASProjectileWeapon::StaticClass, TEXT("ASProjectileWeapon"), &Z_Registration_Info_UClass_ASProjectileWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASProjectileWeapon), 30558993U) },
+		{ Z_Construct_UClass_ASProjectileWeapon, ASProjectileWeapon::StaticClass, TEXT("ASProjectileWeapon"), &Z_Registration_Info_UClass_ASProjectileWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASProjectileWeapon), 3062924280U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SProjectileWeapon_h_1410748497(TEXT("/Script/CoopHordeGame"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SProjectileWeapon_h_3434491675(TEXT("/Script/CoopHordeGame"),
 		Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SProjectileWeapon_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SProjectileWeapon_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
