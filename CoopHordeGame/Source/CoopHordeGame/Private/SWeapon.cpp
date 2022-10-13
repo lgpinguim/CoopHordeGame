@@ -25,7 +25,33 @@ ASWeapon::ASWeapon()
 
 	MuzzleSocketName = "MuzzleFlash";
 	TracerTargetName = "BeamEnd";
+
+	BaseDamage = 20.f;
+	VulnerableDamageMultiplier = 4.0f;
+
+	RateOfFire = 600;
 }
+
+void ASWeapon::BeginPlay()
+{
+	Super::BeginPlay();
+
+	TimeBetweenShots = 60/ RateOfFire;
+}
+
+
+void ASWeapon::StartFire()
+{
+	float FirstDelay = FMath::Max( LastFireTime + TimeBetweenShots - GetWorld()->TimeSeconds,0.0f);
+	
+	GetWorldTimerManager().SetTimer(TimerHandle_TimeBetweenShots,this,&ASWeapon::Fire,TimeBetweenShots,true,FirstDelay);
+}
+
+void ASWeapon::StopFire()
+{
+	GetWorldTimerManager().ClearTimer(TimerHandle_TimeBetweenShots);
+}
+
 
 void ASWeapon::Fire()
 {
@@ -52,19 +78,24 @@ void ASWeapon::Fire()
 		FVector TracerEndPoint = TraceEnd;
 
 		FHitResult Hit;
-		if (GetWorld()->LineTraceSingleByChannel(Hit, EyeLocation, TraceEnd, ECC_Visibility, QueryParams))
+		if (GetWorld()->LineTraceSingleByChannel(Hit, EyeLocation, TraceEnd, COLLISION_WEAPON, QueryParams))
 		{
 			//Blocking hit Process damage
 			AActor* HitActor = Hit.GetActor();
 
-			UGameplayStatics::ApplyPointDamage(HitActor, 20.f, ShotDirection, Hit, MyOwner->GetInstigatorController(),
-			                                   this, DamageType);
-
 			EPhysicalSurface SurfaceType = UPhysicalMaterial::DetermineSurfaceType(Hit.PhysMaterial.Get());
 
+			float ActualDamage = BaseDamage;
+			if (SurfaceType == SURFACE_FLESHVULNERABLE)
+			{
+				ActualDamage *= VulnerableDamageMultiplier;
+			}
+
+			UGameplayStatics::ApplyPointDamage(HitActor, ActualDamage, ShotDirection, Hit, MyOwner->GetInstigatorController(),
+											   this, DamageType);
+
 			UParticleSystem* SelectedEffect = nullptr;
-
-
+			
 			switch (SurfaceType)
 			{
 			case SURFACE_FLESHDEFAULT:
@@ -92,6 +123,8 @@ void ASWeapon::Fire()
 		}
 
 		PlayFireEffects(TracerEndPoint);
+
+		LastFireTime = GetWorld()->TimeSeconds;
 	}
 }
 

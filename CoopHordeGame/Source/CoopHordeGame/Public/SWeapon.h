@@ -18,12 +18,19 @@ class COOPHORDEGAME_API ASWeapon : public AActor
 public:
 	// Sets default values for this actor's properties
 	ASWeapon();
+	
+	UFUNCTION(BlueprintCallable,  Category ="Weapon",  meta = (BlueprintProtected))
+	virtual void StartFire();
 
 	UFUNCTION(BlueprintCallable,  Category ="Weapon",  meta = (BlueprintProtected))
-	virtual void Fire();
+	virtual void StopFire();
 
 
 protected:
+
+
+	virtual void BeginPlay() override;
+	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category ="Components")
 	USkeletalMeshComponent* MeshComponent;
 
@@ -52,6 +59,26 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly, Category ="Weapon")
 	TSubclassOf<UCameraShakeBase> FireCamShake;
+
+	UPROPERTY(EditDefaultsOnly, Category ="Weapon")
+	float BaseDamage;
+	
+	UPROPERTY(EditDefaultsOnly, Category ="Weapon")
+	float VulnerableDamageMultiplier;
+
+	virtual void Fire();
+
+	UPROPERTY(EditDefaultsOnly, Category ="Weapon")
+	FTimerHandle TimerHandle_TimeBetweenShots;
+
+	float LastFireTime;
+
+	/*RPM - Bullets per minute fired by the weapon */
+	UPROPERTY(EditDefaultsOnly, Category ="Weapon")
+	float RateOfFire;
+
+	// Derived from rate of fire
+	float TimeBetweenShots;
 
 public:
 };
