@@ -1463,6 +1463,12 @@
     <ClCompile Include="..\..\Source\CoopHordeGame\Private\SWeapon.cpp">
       <Filter>Source\CoopHordeGame\Private</Filter>
     </ClCompile>
+    <Filter Include="Source\CoopHordeGame\Private\Component">
+      <UniqueIdentifier>{22CD36EA-E645-3CE5-B0C6-BA991CE7049F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CoopHordeGame\Private\Component\SHealthComponent.cpp">
+      <Filter>Source\CoopHordeGame\Private\Component</Filter>
+    </ClCompile>
     <Filter Include="Source\CoopHordeGame\Public">
       <UniqueIdentifier>{3F97B437-E47C-38BA-8C13-B1A36CE14405}</UniqueIdentifier>
     </Filter>
@@ -1474,6 +1480,12 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\CoopHordeGame\Public\SWeapon.h">
       <Filter>Source\CoopHordeGame\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\CoopHordeGame\Public\Component">
+      <UniqueIdentifier>{B3B7963B-6C90-300F-B039-646055835CF0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CoopHordeGame\Public\Component\SHealthComponent.h">
+      <Filter>Source\CoopHordeGame\Public\Component</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
