@@ -8,6 +8,9 @@
 #include "GameFramework/PawnMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "SWeapon.h"
+#include "Components/CapsuleComponent.h"
+#include "CoopHordeGame/CoopHordeGame.h"
+
 
 // Sets default values
 ASCharacter::ASCharacter()
@@ -21,6 +24,8 @@ ASCharacter::ASCharacter()
 	SpringArmComp->bEnableCameraRotationLag = true;
 
 	GetMovementComponent()->GetNavAgentPropertiesRef().bCanCrouch=true;
+
+	GetCapsuleComponent()->SetCollisionResponseToChannel(COLLISION_WEAPON,ECR_Ignore);
 
 
 	//Camera
