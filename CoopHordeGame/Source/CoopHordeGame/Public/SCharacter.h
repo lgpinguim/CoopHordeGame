@@ -4,11 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "SWeapon.h"
+
 #include "GameFramework/Character.h"
 #include "SCharacter.generated.h"
 
 class UCameraComponent;
 class USpringArmComponent;
+class USHealthComponent;
 
 UCLASS()
 class COOPHORDEGAME_API ASCharacter : public ACharacter
@@ -36,6 +38,9 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	USpringArmComponent* SpringArmComp;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	USHealthComponent* HealthComp;
 	
 	bool bWantsToZoom;
 
@@ -63,6 +68,13 @@ protected:
 
 	void StopFire();
 
+	UFUNCTION()
+	void OnHealthChanged(USHealthComponent* InHealthComp, float Health, float HealthDelta, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
+
+	/*Pawn Died previusly */
+	UPROPERTY(BlueprintReadOnly, Category = "Player")
+	bool bDied;
+	
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

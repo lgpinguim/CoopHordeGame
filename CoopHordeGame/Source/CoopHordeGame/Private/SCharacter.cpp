@@ -10,6 +10,7 @@
 #include "SWeapon.h"
 #include "Components/CapsuleComponent.h"
 #include "CoopHordeGame/CoopHordeGame.h"
+#include "Component/SHealthComponent.h"
 
 
 // Sets default values
@@ -27,6 +28,7 @@ ASCharacter::ASCharacter()
 
 	GetCapsuleComponent()->SetCollisionResponseToChannel(COLLISION_WEAPON,ECR_Ignore);
 
+	HealthComp = CreateDefaultSubobject<USHealthComponent>(TEXT("HealthComp"));
 
 	//Camera
 	CameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT( "CameraComp"));
@@ -57,6 +59,8 @@ void ASCharacter::BeginPlay()
 		CurrentWeapon->SetOwner(this);
 		CurrentWeapon->AttachToComponent(GetMesh(),FAttachmentTransformRules::SnapToTargetNotIncludingScale,WeaponAttachSocketName);
 	}
+
+	HealthComp->OnHealthChanged.AddDynamic(this, &ASCharacter::OnHealthChanged);
 	
 }
 
@@ -105,6 +109,23 @@ void ASCharacter::StopFire()
 		CurrentWeapon->StopFire();
 	}
 }
+
+void ASCharacter::OnHealthChanged(USHealthComponent* InHealthComp, float Health, float HealthDelta,
+	const UDamageType* DamageType, AController* InstigatedBy, AActor* DamageCauser)
+{
+	if (Health <= 0.0f && !bDied)
+	{
+		//Die
+		bDied = true;
+		GetMovementComponent()->StopMovementImmediately();
+		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+		DetachFromControllerPendingDestroy();
+		SetLifeSpan(10.0f);
+
+	}
+}
+
 
 // Called every frame
 void ASCharacter::Tick(float DeltaTime)

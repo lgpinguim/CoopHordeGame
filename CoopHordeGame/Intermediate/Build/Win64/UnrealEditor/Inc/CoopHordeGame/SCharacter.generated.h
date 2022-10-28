@@ -8,15 +8,27 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class USHealthComponent;
+class UDamageType;
+class AController;
+class AActor;
 #ifdef COOPHORDEGAME_SCharacter_generated_h
 #error "SCharacter.generated.h already included, missing '#pragma once' in SCharacter.h"
 #endif
 #define COOPHORDEGAME_SCharacter_generated_h
 
-#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_16_SPARSE_DATA
-#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_16_RPC_WRAPPERS
-#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_18_SPARSE_DATA
+#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_18_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnHealthChanged);
+
+
+#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnHealthChanged);
+
+
+#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASCharacter(); \
 	friend struct Z_Construct_UClass_ASCharacter_Statics; \
@@ -25,7 +37,7 @@ public: \
 	DECLARE_SERIALIZER(ASCharacter)
 
 
-#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_16_INCLASS \
+#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesASCharacter(); \
 	friend struct Z_Construct_UClass_ASCharacter_Statics; \
@@ -34,7 +46,7 @@ public: \
 	DECLARE_SERIALIZER(ASCharacter)
 
 
-#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_16_STANDARD_CONSTRUCTORS \
+#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASCharacter) \
@@ -47,7 +59,7 @@ private: \
 public:
 
 
-#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASCharacter(ASCharacter&&); \
@@ -58,25 +70,25 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASCharacter)
 
 
-#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_13_PROLOG
-#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_16_GENERATED_BODY_LEGACY \
+#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_15_PROLOG
+#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_16_SPARSE_DATA \
-	FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_16_RPC_WRAPPERS \
-	FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_16_INCLASS \
-	FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_16_STANDARD_CONSTRUCTORS \
+	FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_18_SPARSE_DATA \
+	FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_18_RPC_WRAPPERS \
+	FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_18_INCLASS \
+	FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_16_GENERATED_BODY \
+#define FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_16_SPARSE_DATA \
-	FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_16_INCLASS_NO_PURE_DECLS \
-	FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_16_ENHANCED_CONSTRUCTORS \
+	FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_18_SPARSE_DATA \
+	FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_18_INCLASS_NO_PURE_DECLS \
+	FID_CoopHordeGame_Source_CoopHordeGame_Public_SCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
