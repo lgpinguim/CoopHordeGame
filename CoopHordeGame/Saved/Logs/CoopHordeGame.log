@@ -1523,3 +1523,514 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.01-22.33.38:250][ 75]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
 [2022.11.01-22.33.38:250][ 75]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
 [2022.11.01-22.33.38:250][ 75]MaterialEditorStats: Shader Count: 30
+[2022.11.01-22.35.29:355][701]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.11.01-22.35.29:355][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-22.35.29:406][701]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.11.01-22.35.29:406][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-22.35.29:878][725]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.11.01-22.35.29:878][725]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-22.35.31:565][848]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.11.01-22.35.31:565][848]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-22.36.13:250][323]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\ExplosiveBarrelPack\Content\Challenges/ExplosiveBarrel/M_ExplosiveBarrel.uasset'. Unknown extension 'uasset'.
+[2022.11.01-22.36.13:263][323]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\ExplosiveBarrelPack\Content\Challenges/ExplosiveBarrel/M_ExplosiveBarrelExploded.uasset'. Unknown extension 'uasset'.
+[2022.11.01-22.36.13:279][323]LogAssetTools: Warning: Failed to import 'C:\Users\lg_pi\Downloads\ExplosiveBarrelPack\Content\Challenges/ExplosiveBarrel/SM_ExplosiveBarrel.uasset'. Unknown extension 'uasset'.
+[2022.11.01-22.36.26:995][617]LogSlate: Window 'Content Browser' being destroyed
+[2022.11.01-22.36.27:020][617]LogSlate: Window 'Content Browser' being destroyed
+[2022.11.01-22.36.59:969][419]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.01-22.37.01:963][419]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.11.01-22.37.01:984][419]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.11.01-22.37.01:989][419]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.11.01-22.37.02:010][420]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.11.01-22.37.05:075][575]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2022.11.01-22.37.05:109][575]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.11.01-22.37.06:080][619]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2022.11.01-22.37.07:165][619]LogSlate: Window 'Delete Assets' being destroyed
+[2022.11.01-22.37.07:256][619]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2022.11.01-22.37.48:268][355]Running D:/Programas/Epic/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -projectfiles -project="D:/GitUE/CoopHordeGame/CoopHordeGame/CoopHordeGame.uproject" -game -rocket -progress
+[2022.11.01-22.37.48:723][355]Log file: C:\Users\lg_pi\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2022.11.01-22.37.48:723][355]
+[2022.11.01-22.37.48:723][355]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2022.11.01-22.37.48:723][355]See the log file for detailed information
+[2022.11.01-22.37.48:723][355]
+[2022.11.01-22.37.48:723][355]Discovering modules, targets and source code for project...
+[2022.11.01-22.37.50:830][355]Binding IntelliSense data...
+[2022.11.01-22.37.53:040][355]Binding IntelliSense data... 100%
+[2022.11.01-22.37.53:040][355]Writing project files...
+[2022.11.01-22.37.58:258][355]Writing project files... 100%
+[2022.11.01-22.37.58:646][355]Candidate modules for hot reload:
+[2022.11.01-22.37.58:646][355]  CoopHordeGame
+[2022.11.01-22.37.58:651][355]Launching UnrealBuildTool... [D:/Programas/Epic/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=CoopHordeGame,0867 CoopHordeGameEditor Win64 Development -Project="D:/GitUE/CoopHordeGame/CoopHordeGame/CoopHordeGame.uproject" "D:/GitUE/CoopHordeGame/CoopHordeGame/CoopHordeGame.uproject"  -IgnoreJunk]
+[2022.11.01-22.40.18:086][355]CompilerResultsLog: New page: Compilation - Nov 1, 2022, 4:40:18 PM
+[2022.11.01-22.40.18:087][355]CompilerResultsLog: Log file: C:\Users\lg_pi\AppData\Local\UnrealBuildTool\Log.txt
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitUE\CoopHordeGame).
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: Creating makefile for CoopHordeGameEditor (no existing makefile)
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: Parsing headers for CoopHordeGameEditor
+[2022.11.01-22.40.18:088][355]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitUE\CoopHordeGame\CoopHordeGame\CoopHordeGame.uproject" "D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\CoopHordeGameEditor\Development\CoopHordeGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lg_pi\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: Reflection code generated for CoopHordeGameEditor in 19.430945 seconds
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: Building CoopHordeGameEditor...
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: Using Visual Studio 2019 14.29.30138 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: [Adaptive Build] Excluded from CoopHordeGame unity file: SExplosiveBarrel.cpp
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 6 logical cores)
+[2022.11.01-22.40.18:088][355]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: Building 8 actions with 6 processes...
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: [1/8] Compile CoopHordeGame.init.gen.cpp
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: [2/8] Compile SExplosiveBarrel.cpp
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: [3/8] Compile SExplosiveBarrel.gen.cpp
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: [4/8] Compile SCharacter.gen.cpp
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: [5/8] Compile SCharacter.cpp
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: [6/8] Link UnrealEditor-CoopHordeGame-0867.lib
+[2022.11.01-22.40.18:088][355]CompilerResultsLog:    Creating library D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame-0867.lib and object D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame-0867.exp
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: [7/8] Link UnrealEditor-CoopHordeGame-0867.dll
+[2022.11.01-22.40.18:088][355]CompilerResultsLog:    Creating library D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame-0867.suppressed.lib and object D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame-0867.suppressed.exp
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: [8/8] WriteMetadata CoopHordeGameEditor.target
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: Total time in Parallel executor: 115.50 seconds
+[2022.11.01-22.40.18:088][355]CompilerResultsLog: Total execution time: 139.32 seconds
+[2022.11.01-22.40.18:105][355]LogMainFrame: MainFrame: Module compiling took 139.703 seconds
+[2022.11.01-22.40.18:179][355]LogClass: /Script/CoopHordeGame Reload.
+[2022.11.01-22.40.18:181][355]LogClass: SCharacter Reload.
+[2022.11.01-22.40.18:212][355]LogClass: Could not find existing class SCharacter in package /Script/CoopHordeGame for reload, assuming new or modified class
+[2022.11.01-22.40.18:228][355]LogClass: Function OnHealthChanged is new or belongs to a modified class.
+[2022.11.01-22.40.18:228][355]LogClass: Could not find existing class SExplosiveBarrel in package /Script/CoopHordeGame for reload, assuming new or modified class
+[2022.11.01-22.40.18:294][355]Re-instancing SCharacter after reload.
+[2022.11.01-22.40.19:296][355]Display: HotReload took 140.9s.
+[2022.11.01-22.40.19:315][355]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 1 class changed, 4 classes unchanged, 3 functions remapped
+[2022.11.01-22.40.19:318][355]Warning: HotReload operation took 140.9s.
+[2022.11.01-22.40.19:355][355]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.11.01-22.40.20:013][355]LogHotReload: New module detected: UnrealEditor-CoopHordeGame-0867.dll
+[2022.11.01-22.40.20:235][356]LogHotReload: Starting Hot-Reload from IDE
+[2022.11.01-22.40.20:338][356]Display: HotReload took  0.1s.
+[2022.11.01-22.40.20:338][356]Display: Reload/Re-instancing Complete: No object changes detected
+[2022.11.01-22.47.43:259][991]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-22.47.56:977][ 32]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-22.48.08:703][ 67]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-22.49.00:004][220]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-22.49.25:524][296]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-22.50.10:750][431]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-22.50.36:313][507]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-22.51.17:573][630]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-22.52.24:986][831]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-22.52.51:161][909]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-22.53.10:608][967]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-22.53.47:474][ 77]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-22.54.02:236][121]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-22.54.14:284][157]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-22.54.29:043][201]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-22.58.44:755][261]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2022.11.01-22.58.44:755][261]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2022.11.01-22.58.54:298][651]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.11.01-22.59.00:900][651]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.11.01-22.59.00:909][651]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.11.01-22.59.00:915][651]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.11.01-22.59.00:928][652]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.11.01-22.59.12:300][275]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_ExplosiveBarrel
+[2022.11.01-22.59.12:306][275]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.11.01-22.59.17:036][504]LogContentBrowser: Attempting asset rename: PlayerPawn -> BP_PlayerPawn
+[2022.11.01-22.59.17:299][504]LogMetaData: Removing '/Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/PlayerPawn.PackageMetaData'
+[2022.11.01-22.59.17:299][504]LogMetaData: Removing '/Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn_C' ref from Metadata '/Game/Blueprints/PlayerPawn.PackageMetaData'
+[2022.11.01-22.59.17:299][504]LogMetaData: Removing '/Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/PlayerPawn.PackageMetaData'
+[2022.11.01-22.59.17:299][504]LogMetaData: Removing '/Game/Blueprints/BP_PlayerPawn.SKEL_BP_PlayerPawn_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/PlayerPawn.PackageMetaData'
+[2022.11.01-22.59.17:299][504]LogMetaData: Removing '/Game/Blueprints/BP_PlayerPawn.SKEL_BP_PlayerPawn_C' ref from Metadata '/Game/Blueprints/PlayerPawn.PackageMetaData'
+[2022.11.01-22.59.17:299][504]LogMetaData: Removing '/Game/Blueprints/BP_PlayerPawn.SKEL_BP_PlayerPawn_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/PlayerPawn.PackageMetaData'
+[2022.11.01-22.59.17:299][504]LogMetaData: Removing '/Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/PlayerPawn.PackageMetaData'
+[2022.11.01-22.59.17:543][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerPawn" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_PlayerPawn.uasset" SILENT=true
+[2022.11.01-22.59.17:562][504]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_PlayerPawn
+[2022.11.01-22.59.17:562][504]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/BP_PlayerPawnC9C1158A4D1F39EF0D8DC385B2038FB6.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_PlayerPawn.uasset'
+[2022.11.01-22.59.17:564][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerPawn" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/PlayerPawn.uasset" SILENT=true
+[2022.11.01-22.59.17:565][504]LogSavePackage: Moving output files for package: /Game/Blueprints/PlayerPawn
+[2022.11.01-22.59.17:565][504]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/PlayerPawn366C677749118AD5D15438A2F3FAE499.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/PlayerPawn.uasset'
+[2022.11.01-22.59.17:602][504]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.01-22.59.17:603][504]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PlayerPawn.BP_PlayerPawn
+[2022.11.01-22.59.17:603][504]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/PlayerPawn.PlayerPawn
+[2022.11.01-22.59.17:603][504]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/PlayerPawn.Default__PlayerPawn_C
+[2022.11.01-22.59.17:603][504]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/PlayerPawn.PlayerPawn_C
+[2022.11.01-22.59.23:675][827]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel
+[2022.11.01-22.59.23:676][827]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.01-22.59.24:259][827]LogViewport: Scene viewport resized to 986x578, mode Windowed.
+[2022.11.01-22.59.26:268][869]LogViewport: Scene viewport resized to 559x970, mode Windowed.
+[2022.11.01-22.59.28:676][894]BlueprintLog: New page: Compile BP_ExplosiveBarrel
+[2022.11.01-22.59.28:815][894]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2022.11.01-22.59.28:864][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ExplosiveBarrel" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_ExplosiveBarrel.uasset" SILENT=true
+[2022.11.01-22.59.28:875][894]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ExplosiveBarrel
+[2022.11.01-22.59.28:875][894]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/BP_ExplosiveBarrel19D25EE84AB029D6820E1D8D5F5C33D1.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_ExplosiveBarrel.uasset'
+[2022.11.01-22.59.28:892][894]AssetCheck: New page: Asset Save: BP_ExplosiveBarrel
+[2022.11.01-22.59.28:892][894]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel
+[2022.11.01-22.59.29:347][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ExplosiveBarrel" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_ExplosiveBarrel.uasset" SILENT=true
+[2022.11.01-22.59.29:350][906]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ExplosiveBarrel
+[2022.11.01-22.59.29:351][906]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/BP_ExplosiveBarrel231048F94B7398149AF89594BA241EC7.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_ExplosiveBarrel.uasset'
+[2022.11.01-22.59.29:378][906]AssetCheck: New page: Asset Save: BP_ExplosiveBarrel
+[2022.11.01-22.59.29:378][906]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel
+[2022.11.01-22.59.44:294][399]LogSlate: Window 'BP_ExplosiveBarrel' being destroyed
+[2022.11.01-22.59.44:311][399]LogSlate: Window 'BP_ExplosiveBarrel' being destroyed
+[2022.11.01-22.59.44:321][399]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2022.11.01-22.59.44:321][399]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-22.59.46:111][470]Candidate modules for hot reload:
+[2022.11.01-22.59.46:111][470]  CoopHordeGame
+[2022.11.01-22.59.46:116][470]Launching UnrealBuildTool... [D:/Programas/Epic/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=CoopHordeGame,6762 CoopHordeGameEditor Win64 Development -Project="D:/GitUE/CoopHordeGame/CoopHordeGame/CoopHordeGame.uproject" "D:/GitUE/CoopHordeGame/CoopHordeGame/CoopHordeGame.uproject"  -IgnoreJunk]
+[2022.11.01-22.59.46:120][470]Warning: Starting HotReload took  0.0s.
+[2022.11.01-22.59.49:913][615]CompilerResultsLog: New page: Compilation - Nov 1, 2022, 4:59:49 PM
+[2022.11.01-22.59.49:913][615]CompilerResultsLog: Log file: C:\Users\lg_pi\AppData\Local\UnrealBuildTool\Log.txt
+[2022.11.01-22.59.49:913][615]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitUE\CoopHordeGame).
+[2022.11.01-22.59.49:913][615]CompilerResultsLog: Building CoopHordeGameEditor...
+[2022.11.01-22.59.49:913][615]CompilerResultsLog: Using Visual Studio 2019 14.29.30138 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.11.01-22.59.49:913][615]CompilerResultsLog: [Adaptive Build] Excluded from CoopHordeGame unity file: SExplosiveBarrel.cpp
+[2022.11.01-22.59.49:913][615]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 6 logical cores)
+[2022.11.01-22.59.49:913][615]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2022.11.01-22.59.49:913][615]CompilerResultsLog: Building 3 actions with 3 processes...
+[2022.11.01-22.59.49:913][615]CompilerResultsLog: [1/3] Link UnrealEditor-CoopHordeGame-6762.lib
+[2022.11.01-22.59.49:913][615]CompilerResultsLog:    Creating library D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame-6762.lib and object D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame-6762.exp
+[2022.11.01-22.59.49:913][615]CompilerResultsLog: [2/3] Link UnrealEditor-CoopHordeGame-6762.dll
+[2022.11.01-22.59.49:913][615]CompilerResultsLog:    Creating library D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame-6762.suppressed.lib and object D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\UnrealEditor-CoopHordeGame-6762.suppressed.exp
+[2022.11.01-22.59.49:913][615]CompilerResultsLog: [3/3] WriteMetadata CoopHordeGameEditor.target
+[2022.11.01-22.59.49:913][615]CompilerResultsLog: Total time in Parallel executor: 1.66 seconds
+[2022.11.01-22.59.49:913][615]CompilerResultsLog: Total execution time: 3.31 seconds
+[2022.11.01-22.59.49:913][615]LogMainFrame: MainFrame: Module compiling took 3.828 seconds
+[2022.11.01-22.59.49:950][615]LogClass: /Script/CoopHordeGame Reload.
+[2022.11.01-22.59.49:953][615]LogClass: SExplosiveBarrel Reload.
+[2022.11.01-22.59.49:959][615]LogClass: Could not find existing class SExplosiveBarrel in package /Script/CoopHordeGame for reload, assuming new or modified class
+[2022.11.01-22.59.49:959][615]LogClass: Function OnHealthChanged is new or belongs to a modified class.
+[2022.11.01-22.59.49:981][615]Re-instancing SExplosiveBarrel after reload.
+[2022.11.01-22.59.50:168][615]Display: HotReload took  4.1s.
+[2022.11.01-22.59.50:168][615]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 5 classes unchanged, 4 functions remapped
+[2022.11.01-22.59.51:971][669]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel
+[2022.11.01-22.59.51:972][669]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.01-22.59.55:919][784]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.01-22.59.58:927][874]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Challenges/ExplosiveBarrel/SM_ExplosiveBarrel) ...
+[2022.11.01-22.59.59:352][874]LogStaticMesh: Display: Building static mesh SM_ExplosiveBarrel...
+[2022.11.01-22.59.59:352][874]LogStaticMesh: Built static mesh [0.15s] /Game/Challenges/ExplosiveBarrel/SM_ExplosiveBarrel.SM_ExplosiveBarrel
+[2022.11.01-23.00.08:613][137]LogMaterial: Display: Missing cached shadermap for M_ExplosiveBarrel in PCD3D_SM5, Default, SM5 (DDC key hash: 4DC784823CCE7F1B556496350EEE52BDF181F1D7), compiling. 
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display: ================================================
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display: Total job queries 145, among them cache hits 40 (27.59%)
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display: Tracking 65 distinct input hashes that result in 50 distinct outputs (76.92%)
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display: RAM used: 0.08 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.01%
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display: Shaders Compiled: 75
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display: Jobs assigned 67, completed 65 (97.01%)
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display: Average time worker was idle: 87.75 s
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display: Time job spent in pending queue: average 3.21 s, longest 8.86 s
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display: Job execution time: average 1.27 s, max 13.85 s
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display: Job life time (pending + execution): average 4.56 s, max 13.96
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 43.33 s
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display: Jobs were issued in 67 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display: Average processing rate: 1.50 jobs/sec
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display: Effective parallelization: 1.03 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    5 times, average 1.81 sec, max 3.53 sec, min 0.66 sec)
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault (compiled    3 times, average 1.50 sec, max 3.75 sec, min 0.32 sec)
+[2022.11.01-23.00.09:573][167]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse (compiled    3 times, average 1.44 sec, max 3.75 sec, min 0.23 sec)
+[2022.11.01-23.00.09:574][167]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 1.40 sec, max 2.67 sec, min 0.59 sec)
+[2022.11.01-23.00.09:574][167]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled    2 times, average 0.78 sec, max 0.85 sec, min 0.71 sec)
+[2022.11.01-23.00.09:574][167]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.11.01-23.00.09:574][167]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.30% of total time (compiled    5 times, average 1.81 sec, max 3.53 sec, min 0.66 sec)
+[2022.11.01-23.00.09:574][167]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.76% of total time (compiled    5 times, average 1.40 sec, max 2.67 sec, min 0.59 sec)
+[2022.11.01-23.00.09:574][167]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault - 10.11% of total time (compiled    3 times, average 1.50 sec, max 3.75 sec, min 0.32 sec)
+[2022.11.01-23.00.09:574][167]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse - 9.71% of total time (compiled    3 times, average 1.44 sec, max 3.75 sec, min 0.23 sec)
+[2022.11.01-23.00.09:574][167]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth - 3.50% of total time (compiled    2 times, average 0.78 sec, max 0.85 sec, min 0.71 sec)
+[2022.11.01-23.00.09:574][167]LogShaderCompilers: Display: ================================================
+[2022.11.01-23.00.11:698][254]BlueprintLog: New page: Compile BP_ExplosiveBarrel
+[2022.11.01-23.00.11:911][254]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2022.11.01-23.00.12:537][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ExplosiveBarrel" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_ExplosiveBarrel.uasset" SILENT=true
+[2022.11.01-23.00.12:562][254]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ExplosiveBarrel
+[2022.11.01-23.00.12:563][254]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/BP_ExplosiveBarrelE9060AA145DEADCA1F6C62935500DD78.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_ExplosiveBarrel.uasset'
+[2022.11.01-23.00.12:634][254]AssetCheck: New page: Asset Save: BP_ExplosiveBarrel
+[2022.11.01-23.00.12:634][254]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel
+[2022.11.01-23.00.13:349][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ExplosiveBarrel" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_ExplosiveBarrel.uasset" SILENT=true
+[2022.11.01-23.00.13:352][280]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ExplosiveBarrel
+[2022.11.01-23.00.13:353][280]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/BP_ExplosiveBarrel16BEB1EA4E5519B1650F3FADDA38BC0A.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_ExplosiveBarrel.uasset'
+[2022.11.01-23.00.13:403][280]AssetCheck: New page: Asset Save: BP_ExplosiveBarrel
+[2022.11.01-23.00.13:403][280]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel
+[2022.11.01-23.00.15:800][365]LogSlate: Window 'BP_ExplosiveBarrel' being destroyed
+[2022.11.01-23.00.15:805][365]LogSlate: Window 'BP_ExplosiveBarrel' being destroyed
+[2022.11.01-23.00.15:809][365]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2022.11.01-23.00.15:809][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-23.00.17:155][401]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C
+[2022.11.01-23.00.17:155][401]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C
+[2022.11.01-23.00.17:169][401]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel as actor: BP_ExplosiveBarrel_C /Game/TestMap.TestMap:PersistentLevel.BP_ExplosiveBarrel_C_0
+[2022.11.01-23.00.17:181][401]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel as actor: BP_ExplosiveBarrel_C /Game/TestMap.TestMap:PersistentLevel.BP_ExplosiveBarrel_C_0
+[2022.11.01-23.00.18:275][479]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C
+[2022.11.01-23.00.18:275][479]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C
+[2022.11.01-23.00.18:276][479]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel as actor: BP_ExplosiveBarrel_C /Game/TestMap.TestMap:PersistentLevel.BP_ExplosiveBarrel_C_1
+[2022.11.01-23.00.18:276][479]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel as actor: BP_ExplosiveBarrel_C /Game/TestMap.TestMap:PersistentLevel.BP_ExplosiveBarrel_C_1
+[2022.11.01-23.00.20:870][578]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel
+[2022.11.01-23.00.20:871][578]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.01-23.00.26:630][730]LogMaterial: Display: Missing cached shadermap for M_ExplosiveBarrelExploded in PCD3D_SM5, Default, SM5 (DDC key hash: EF3FA2B7A03A8B8C88475603245F45874386E5E1), compiling. 
+[2022.11.01-23.00.28:493][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ExplosiveBarrel" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_ExplosiveBarrel.uasset" SILENT=true
+[2022.11.01-23.00.28:502][779]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ExplosiveBarrel
+[2022.11.01-23.00.28:503][779]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/BP_ExplosiveBarrelC291317F43BE8281D45223BF767B4154.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_ExplosiveBarrel.uasset'
+[2022.11.01-23.00.28:534][779]AssetCheck: New page: Asset Save: BP_ExplosiveBarrel
+[2022.11.01-23.00.28:534][779]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel
+[2022.11.01-23.00.30:004][823]LogSlate: Window 'BP_ExplosiveBarrel' being destroyed
+[2022.11.01-23.00.30:009][823]LogSlate: Window 'BP_ExplosiveBarrel' being destroyed
+[2022.11.01-23.00.30:013][823]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2022.11.01-23.00.30:013][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-23.00.33:126][979]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.11.01-23.00.33:134][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.01-23.00.33:134][979]PIE: New page: PIE session: TestMap (Nov 1, 2022, 5:00:33 PM)
+[2022.11.01-23.00.33:134][979]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2022.11.01-23.00.33:138][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003635s)
+[2022.11.01-23.00.33:138][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.003738s)
+[2022.11.01-23.00.33:138][979]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.01-23.00.33:138][979]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.01-23.00.33:139][979]LogAIModule: Creating AISystem for world TestMap
+[2022.11.01-23.00.33:139][979]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2022.11.01-23.00.33:246][979]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.11.01-23.00.33:254][979]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.11.01-23.00.33:254][979]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.01-23.00.33:254][979]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.01-23.00.33:254][979]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.01-23.00.33:254][979]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.01-23.00.33:254][979]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.01-23.00.33:254][979]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.01-23.00.33:254][979]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.01-23.00.33:254][979]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.01-23.00.33:255][979]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.01-23.00.33:255][979]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.01-23.00.33:255][979]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.01-23.00.33:257][979]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.01-23.00.33:509][979]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (4- CORSAIR HS70 PRO Wireless Gaming Headset)
+[2022.11.01-23.00.33:509][979]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.01-23.00.33:510][979]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.01-23.00.33:510][979]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.01-23.00.33:511][979]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2022.11.01-23.00.33:511][979]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=10
+[2022.11.01-23.00.33:512][979]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2022.11.01-23.00.33:513][979]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2022.11.01-23.00.33:513][979]LogInit: FAudioDevice initialized.
+[2022.11.01-23.00.33:513][979]LogAudio: Display: Audio Device (ID: 10) registered with world 'TestMap'.
+[2022.11.01-23.00.33:640][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.01-23.00.33:640][979]LogLoad: Game class is 'GameModeBase'
+[2022.11.01-23.00.33:643][979]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.11.01-20.00.33
+[2022.11.01-23.00.33:644][979]LogWorld: Bringing up level for play took: 0.003503
+[2022.11.01-23.00.33:646][979]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2022.11.01-23.00.33:676][979]PIE: Server logged in
+[2022.11.01-23.00.33:679][979]PIE: Play in editor total start time 0.546 seconds.
+[2022.11.01-23.00.33:782][979]LogViewport: Scene viewport resized to 2554x1352, mode Windowed.
+[2022.11.01-23.00.39:506][ 44]LogTemp: Health Changed: 80.0
+[2022.11.01-23.00.39:585][ 46]LogTemp: Health Changed: 60.0
+[2022.11.01-23.00.39:683][ 48]LogTemp: Health Changed: 40.0
+[2022.11.01-23.00.39:784][ 50]LogTemp: Health Changed: 20.0
+[2022.11.01-23.00.39:861][ 52]LogTemp: Health Changed: 0.0
+[2022.11.01-23.00.39:962][ 55]LogTemp: Health Changed: 0.0
+[2022.11.01-23.00.40:633][ 75]LogTemp: Health Changed: 0.0
+[2022.11.01-23.00.41:089][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.01-23.00.41:089][ 88]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestMap
+[2022.11.01-23.00.41:090][ 88]LogSlate: Window 'CoopHordeGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.11.01-23.00.41:130][ 88]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.01-23.00.41:130][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-23.00.41:159][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.01-23.00.41:166][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-23.00.41:193][ 88]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.01-23.00.41:193][ 88]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.11.01-23.00.41:195][ 88]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.11.01-23.00.41:207][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   5.84ms
+[2022.11.01-23.00.41:316][ 89]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.11.01-23.00.48:553][180]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel
+[2022.11.01-23.00.48:555][180]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.01-23.01.00:153][479]LogViewport: Scene viewport resized to 715x541, mode Windowed.
+[2022.11.01-23.01.02:743][479]LogViewport: Scene viewport resized to 735x811, mode Windowed.
+[2022.11.01-23.01.07:355][625]LogSlate: Window 'BP_ExplosiveBarrel' being destroyed
+[2022.11.01-23.01.17:036][696]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2022.11.01-23.01.17:036][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-23.01.17:079][696]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel
+[2022.11.01-23.01.17:079][696]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.01-23.01.39:049][173]BlueprintLog: New page: Compile BP_ExplosiveBarrel
+[2022.11.01-23.01.39:123][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2022.11.01-23.01.39:219][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ExplosiveBarrel" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_ExplosiveBarrel.uasset" SILENT=true
+[2022.11.01-23.01.39:222][173]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ExplosiveBarrel
+[2022.11.01-23.01.39:222][173]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/BP_ExplosiveBarrel37E61B784BA1B54434E584994587B356.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_ExplosiveBarrel.uasset'
+[2022.11.01-23.01.39:240][173]AssetCheck: New page: Asset Save: BP_ExplosiveBarrel
+[2022.11.01-23.01.39:240][173]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel
+[2022.11.01-23.01.39:683][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_ExplosiveBarrel" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_ExplosiveBarrel.uasset" SILENT=true
+[2022.11.01-23.01.39:686][201]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ExplosiveBarrel
+[2022.11.01-23.01.39:686][201]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/BP_ExplosiveBarrel24880DB7434E27A90D8BB4B891EA4593.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/Blueprints/BP_ExplosiveBarrel.uasset'
+[2022.11.01-23.01.39:711][201]AssetCheck: New page: Asset Save: BP_ExplosiveBarrel
+[2022.11.01-23.01.39:711][201]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel
+[2022.11.01-23.01.44:186][421]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C
+[2022.11.01-23.01.44:186][421]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C
+[2022.11.01-23.01.44:186][421]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel as actor: BP_ExplosiveBarrel_C /Game/TestMap.TestMap:PersistentLevel.BP_ExplosiveBarrel_C_2
+[2022.11.01-23.01.44:186][421]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel as actor: BP_ExplosiveBarrel_C /Game/TestMap.TestMap:PersistentLevel.BP_ExplosiveBarrel_C_2
+[2022.11.01-23.01.44:699][456]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C
+[2022.11.01-23.01.44:699][456]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C
+[2022.11.01-23.01.44:701][456]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel as actor: BP_ExplosiveBarrel_C /Game/TestMap.TestMap:PersistentLevel.BP_ExplosiveBarrel_C_3
+[2022.11.01-23.01.44:701][456]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel as actor: BP_ExplosiveBarrel_C /Game/TestMap.TestMap:PersistentLevel.BP_ExplosiveBarrel_C_3
+[2022.11.01-23.01.47:728][587]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C
+[2022.11.01-23.01.47:728][587]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C
+[2022.11.01-23.01.47:729][587]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel as actor: BP_ExplosiveBarrel_C /Game/TestMap.TestMap:PersistentLevel.BP_ExplosiveBarrel_C_4
+[2022.11.01-23.01.47:729][587]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel as actor: BP_ExplosiveBarrel_C /Game/TestMap.TestMap:PersistentLevel.BP_ExplosiveBarrel_C_4
+[2022.11.01-23.01.48:339][624]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C
+[2022.11.01-23.01.48:340][624]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel_C
+[2022.11.01-23.01.48:341][624]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel as actor: BP_ExplosiveBarrel_C /Game/TestMap.TestMap:PersistentLevel.BP_ExplosiveBarrel_C_5
+[2022.11.01-23.01.48:341][624]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_ExplosiveBarrel.BP_ExplosiveBarrel as actor: BP_ExplosiveBarrel_C /Game/TestMap.TestMap:PersistentLevel.BP_ExplosiveBarrel_C_5
+[2022.11.01-23.01.51:133][751]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.11.01-23.01.51:140][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.01-23.01.51:140][751]PIE: New page: PIE session: TestMap (Nov 1, 2022, 5:01:51 PM)
+[2022.11.01-23.01.51:140][751]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2022.11.01-23.01.51:144][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003958s)
+[2022.11.01-23.01.51:144][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.004059s)
+[2022.11.01-23.01.51:144][751]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.01-23.01.51:144][751]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.01-23.01.51:145][751]LogAIModule: Creating AISystem for world TestMap
+[2022.11.01-23.01.51:145][751]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2022.11.01-23.01.51:178][751]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.11.01-23.01.51:181][751]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.11.01-23.01.51:181][751]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.01-23.01.51:181][751]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.01-23.01.51:181][751]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.01-23.01.51:181][751]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.01-23.01.51:181][751]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.01-23.01.51:181][751]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.01-23.01.51:181][751]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.01-23.01.51:181][751]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.01-23.01.51:182][751]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.01-23.01.51:182][751]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.01-23.01.51:182][751]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.01-23.01.51:184][751]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.01-23.01.51:401][751]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (4- CORSAIR HS70 PRO Wireless Gaming Headset)
+[2022.11.01-23.01.51:401][751]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.01-23.01.51:401][751]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.01-23.01.51:401][751]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.01-23.01.51:402][751]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2022.11.01-23.01.51:402][751]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=11
+[2022.11.01-23.01.51:404][751]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2022.11.01-23.01.51:404][751]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2022.11.01-23.01.51:404][751]LogInit: FAudioDevice initialized.
+[2022.11.01-23.01.51:404][751]LogAudio: Display: Audio Device (ID: 11) registered with world 'TestMap'.
+[2022.11.01-23.01.51:455][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.01-23.01.51:456][751]LogLoad: Game class is 'GameModeBase'
+[2022.11.01-23.01.51:459][751]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.11.01-20.01.51
+[2022.11.01-23.01.51:459][751]LogWorld: Bringing up level for play took: 0.003323
+[2022.11.01-23.01.51:462][751]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2022.11.01-23.01.51:466][751]PIE: Server logged in
+[2022.11.01-23.01.51:468][751]PIE: Play in editor total start time 0.329 seconds.
+[2022.11.01-23.01.51:493][751]LogViewport: Scene viewport resized to 2554x1352, mode Windowed.
+[2022.11.01-23.01.55:397][822]LogTemp: Health Changed: 80.0
+[2022.11.01-23.01.55:485][825]LogTemp: Health Changed: 60.0
+[2022.11.01-23.01.55:868][838]LogTemp: Health Changed: 40.0
+[2022.11.01-23.01.55:959][841]LogTemp: Health Changed: 20.0
+[2022.11.01-23.01.56:051][844]LogTemp: Health Changed: 0.0
+[2022.11.01-23.01.56:216][847]LogTemp: Health Changed: 0.0
+[2022.11.01-23.01.56:259][849]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.02:056][ 42]LogTemp: Health Changed: 80.0
+[2022.11.01-23.02.02:974][ 73]LogTemp: Health Changed: 60.0
+[2022.11.01-23.02.03:066][ 76]LogTemp: Health Changed: 40.0
+[2022.11.01-23.02.03:161][ 79]LogTemp: Health Changed: 20.0
+[2022.11.01-23.02.03:253][ 82]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.03:371][ 86]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.03:459][ 89]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.06:566][192]LogTemp: Health Changed: 80.0
+[2022.11.01-23.02.06:660][195]LogTemp: Health Changed: 60.0
+[2022.11.01-23.02.06:760][198]LogTemp: Health Changed: 40.0
+[2022.11.01-23.02.06:857][201]LogTemp: Health Changed: 20.0
+[2022.11.01-23.02.06:954][204]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.07:051][207]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.07:151][210]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.07:249][213]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.07:345][216]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.07:935][235]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.08:029][238]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.08:125][241]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.09:599][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.01-23.02.09:599][288]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestMap
+[2022.11.01-23.02.09:600][288]LogSlate: Window 'CoopHordeGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.11.01-23.02.09:632][288]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.01-23.02.09:632][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-23.02.09:648][288]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.01-23.02.09:652][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-23.02.09:684][288]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.01-23.02.09:684][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.11.01-23.02.09:686][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.11.01-23.02.09:693][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2022.11.01-23.02.09:747][289]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.11.01-23.02.17:798][582]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.11.01-23.02.17:805][582]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.01-23.02.17:805][582]PIE: New page: PIE session: TestMap (Nov 1, 2022, 5:02:17 PM)
+[2022.11.01-23.02.17:805][582]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2022.11.01-23.02.17:808][582]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003305s)
+[2022.11.01-23.02.17:809][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.003432s)
+[2022.11.01-23.02.17:809][582]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.01-23.02.17:809][582]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.01-23.02.17:809][582]LogAIModule: Creating AISystem for world TestMap
+[2022.11.01-23.02.17:809][582]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2022.11.01-23.02.17:840][582]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2022.11.01-23.02.17:842][582]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.11.01-23.02.17:842][582]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.01-23.02.17:842][582]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.01-23.02.17:842][582]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.01-23.02.17:842][582]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.01-23.02.17:842][582]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.01-23.02.17:842][582]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.01-23.02.17:842][582]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.01-23.02.17:842][582]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.01-23.02.17:843][582]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.01-23.02.17:843][582]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.01-23.02.17:843][582]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.01-23.02.17:845][582]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.01-23.02.18:056][582]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (4- CORSAIR HS70 PRO Wireless Gaming Headset)
+[2022.11.01-23.02.18:056][582]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.01-23.02.18:056][582]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.01-23.02.18:056][582]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.01-23.02.18:056][582]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2022.11.01-23.02.18:056][582]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=12
+[2022.11.01-23.02.18:058][582]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2022.11.01-23.02.18:058][582]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2022.11.01-23.02.18:058][582]LogInit: FAudioDevice initialized.
+[2022.11.01-23.02.18:058][582]LogAudio: Display: Audio Device (ID: 12) registered with world 'TestMap'.
+[2022.11.01-23.02.18:103][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.01-23.02.18:103][582]LogLoad: Game class is 'GameModeBase'
+[2022.11.01-23.02.18:106][582]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.11.01-20.02.18
+[2022.11.01-23.02.18:106][582]LogWorld: Bringing up level for play took: 0.003276
+[2022.11.01-23.02.18:110][582]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2022.11.01-23.02.18:115][582]PIE: Server logged in
+[2022.11.01-23.02.18:117][582]PIE: Play in editor total start time 0.312 seconds.
+[2022.11.01-23.02.18:144][582]LogViewport: Scene viewport resized to 2554x1352, mode Windowed.
+[2022.11.01-23.02.21:284][638]LogTemp: Health Changed: 80.0
+[2022.11.01-23.02.21:370][640]LogTemp: Health Changed: 60.0
+[2022.11.01-23.02.21:463][642]LogTemp: Health Changed: 40.0
+[2022.11.01-23.02.21:553][644]LogTemp: Health Changed: 20.0
+[2022.11.01-23.02.21:646][646]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.21:776][649]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.21:874][651]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.21:960][653]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.22:049][655]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.22:636][668]LogTemp: Health Changed: 80.0
+[2022.11.01-23.02.22:722][670]LogTemp: Health Changed: 60.0
+[2022.11.01-23.02.22:817][672]LogTemp: Health Changed: 40.0
+[2022.11.01-23.02.22:902][674]LogTemp: Health Changed: 20.0
+[2022.11.01-23.02.23:004][676]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.23:105][678]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.23:234][680]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.24:273][705]LogTemp: Health Changed: 80.0
+[2022.11.01-23.02.24:343][707]LogTemp: Health Changed: 60.0
+[2022.11.01-23.02.24:440][710]LogTemp: Health Changed: 40.0
+[2022.11.01-23.02.24:545][713]LogTemp: Health Changed: 20.0
+[2022.11.01-23.02.24:650][716]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.24:746][719]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.24:846][722]LogTemp: Health Changed: 0.0
+[2022.11.01-23.02.25:589][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.01-23.02.25:589][745]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestMap
+[2022.11.01-23.02.25:590][745]LogSlate: Window 'CoopHordeGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.11.01-23.02.25:615][745]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.11.01-23.02.25:615][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-23.02.25:626][745]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.01-23.02.25:631][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-23.02.25:663][745]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.01-23.02.25:664][745]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2022.11.01-23.02.25:666][745]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2022.11.01-23.02.25:674][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.11.01-23.02.25:725][746]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.11.01-23.02.36:772][778]LogStaticMesh: StaticMesh /Game/MilitaryWeapSilver/Weapons/GrenadeLauncherA_Ammo.GrenadeLauncherA_Ammo should be resaved to improve async compilation performance.
+[2022.11.01-23.02.36:775][778]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_GranadeProjectile.BP_GranadeProjectile
+[2022.11.01-23.02.36:776][778]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.01-23.02.48:244][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.11.01-23.02.49:511][764]LogSlate: Window 'Save Content' being destroyed
+[2022.11.01-23.02.49:653][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.11.01-23.02.49:694][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2022.11.01-23.02.49:732][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.11.01-23.02.49:733][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestMap" FILE="../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.11.01-23.02.49:769][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.11.01-23.02.49:789][764]LogSavePackage: Moving output files for package: /Game/TestMap
+[2022.11.01-23.02.49:789][764]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/TestMap558F1FF64B279AEF81EFE8AB70D05E3A.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Content/TestMap.umap'
+[2022.11.01-23.02.49:798][764]LogFileHelpers: No new changes to save!
+[2022.11.01-23.02.49:798][764]LogFileHelpers: Saving map 'TestMap' took 0.065
+[2022.11.01-23.02.49:812][764]AssetCheck: New page: Asset Save: TestMap
+[2022.11.01-23.02.49:812][764]LogContentValidation: Display: Validating World /Game/TestMap.TestMap
