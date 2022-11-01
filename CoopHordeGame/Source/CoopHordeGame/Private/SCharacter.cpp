@@ -117,6 +117,7 @@ void ASCharacter::OnHealthChanged(USHealthComponent* InHealthComp, float Health,
 	{
 		//Die
 		bDied = true;
+		StopFire();
 		GetMovementComponent()->StopMovementImmediately();
 		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
