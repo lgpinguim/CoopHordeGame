@@ -34,7 +34,8 @@
             "d:\\programas\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\capsulecomponent.generated.h",
             "d:\\gitue\\coophordegame\\coophordegame\\source\\coophordegame\\coophordegame.h",
             "d:\\gitue\\coophordegame\\coophordegame\\source\\coophordegame\\public\\component\\shealthcomponent.h",
-            "d:\\gitue\\coophordegame\\coophordegame\\intermediate\\build\\win64\\unrealeditor\\inc\\coophordegame\\shealthcomponent.generated.h"
+            "d:\\gitue\\coophordegame\\coophordegame\\intermediate\\build\\win64\\unrealeditor\\inc\\coophordegame\\shealthcomponent.generated.h",
+            "d:\\programas\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\public\\net\\unrealnetwork.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
