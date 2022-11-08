@@ -28,7 +28,8 @@
             "d:\\programas\\epic\\ue_5.0\\engine\\source\\runtime\\physicscore\\public\\physicssettingsenums.h",
             "d:\\programas\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\physicscore\\physicssettingsenums.generated.h",
             "d:\\programas\\epic\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\physicscore\\physicalmaterial.generated.h",
-            "d:\\gitue\\coophordegame\\coophordegame\\source\\coophordegame\\coophordegame.h"
+            "d:\\gitue\\coophordegame\\coophordegame\\source\\coophordegame\\coophordegame.h",
+            "d:\\programas\\epic\\ue_5.0\\engine\\source\\runtime\\engine\\public\\net\\unrealnetwork.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

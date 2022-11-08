@@ -10,6 +10,21 @@ class USkeletalMeshComponent;
 class UDamageType;
 class UParticleSystem;
 
+//Contains information of a single hitscan weapon linetrace
+USTRUCT()
+struct FHitScanTrace
+{
+	GENERATED_BODY()
+
+public:
+
+	UPROPERTY()
+	FVector_NetQuantize TraceFrom;
+
+	UPROPERTY()
+	FVector_NetQuantize TraceTo;
+};
+
 UCLASS()
 class COOPHORDEGAME_API ASWeapon : public AActor
 {
@@ -27,8 +42,7 @@ public:
 
 
 protected:
-
-
+	
 	virtual void BeginPlay() override;
 	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category ="Components")
@@ -67,6 +81,9 @@ protected:
 	float VulnerableDamageMultiplier;
 
 	virtual void Fire();
+	
+	UFUNCTION(Server,Reliable,WithValidation)
+	virtual void ServerFire();
 
 	UPROPERTY(EditDefaultsOnly, Category ="Weapon")
 	FTimerHandle TimerHandle_TimeBetweenShots;
@@ -79,6 +96,12 @@ protected:
 
 	// Derived from rate of fire
 	float TimeBetweenShots;
+
+	UPROPERTY(ReplicatedUsing=OnRep_HitScanTrace)
+	FHitScanTrace HitScanTrace;
+
+	UFUNCTION()
+	void OnRep_HitScanTrace();
 
 public:
 };

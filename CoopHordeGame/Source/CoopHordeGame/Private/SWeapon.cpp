@@ -8,6 +8,7 @@
 #include "Particles/ParticleSystemComponent.h"
 #include "PhysicalMaterials/PhysicalMaterial.h"
 #include "CoopHordeGame/CoopHordeGame.h"
+#include "Net/UnrealNetwork.h"
 
 static int32 DebugWeaponDrawing = 0;
 
@@ -58,6 +59,11 @@ void ASWeapon::StopFire()
 void ASWeapon::Fire()
 {
 	//trace the world from pawn eyes to crosshair location
+
+	if (!HasAuthority())
+	{
+		ServerFire();
+	}
 
 	AActor* MyOwner = GetOwner();
 
@@ -126,8 +132,29 @@ void ASWeapon::Fire()
 
 		PlayFireEffects(TracerEndPoint);
 
+		if (HasAuthority())
+		{
+			HitScanTrace.TraceTo = TracerEndPoint;
+		}
+
 		LastFireTime = GetWorld()->TimeSeconds;
 	}
+}
+
+void ASWeapon::OnRep_HitScanTrace()
+{
+	// Play Cosmetic effects
+	PlayFireEffects(HitScanTrace.TraceTo);
+}
+
+void ASWeapon::ServerFire_Implementation()
+{
+	Fire();
+}
+
+bool ASWeapon::ServerFire_Validate()
+{
+	return true;
 }
 
 void ASWeapon::PlayFireEffects(FVector TracerEndPoint)
@@ -160,3 +187,11 @@ void ASWeapon::PlayFireEffects(FVector TracerEndPoint)
 		}
 	}
 }
+
+void ASWeapon::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	DOREPLIFETIME_CONDITION(ASWeapon,HitScanTrace, COND_SkipOwner);
+}
+
