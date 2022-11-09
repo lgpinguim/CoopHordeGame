@@ -11,6 +11,7 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 // Cross Module References
 	COOPHORDEGAME_API UScriptStruct* Z_Construct_UScriptStruct_FHitScanTrace();
 	UPackage* Z_Construct_UPackage__Script_CoopHordeGame();
+	PHYSICSCORE_API UEnum* Z_Construct_UEnum_PhysicsCore_EPhysicalSurface();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FVector_NetQuantize();
 	COOPHORDEGAME_API UClass* Z_Construct_UClass_ASWeapon_NoRegister();
 	COOPHORDEGAME_API UClass* Z_Construct_UClass_ASWeapon();
@@ -42,13 +43,17 @@ template<> COOPHORDEGAME_API UScriptStruct* StaticStruct<FHitScanTrace>()
 #endif
 		static void* NewStructOps();
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_TraceFrom_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_SurfaceType_MetaData[];
 #endif
-		static const UECodeGen_Private::FStructPropertyParams NewProp_TraceFrom;
+		static const UECodeGen_Private::FBytePropertyParams NewProp_SurfaceType;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_TraceTo_MetaData[];
 #endif
 		static const UECodeGen_Private::FStructPropertyParams NewProp_TraceTo;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_ShootsFired_MetaData[];
+#endif
+		static const UECodeGen_Private::FInt8PropertyParams NewProp_ShootsFired;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UECodeGen_Private::FStructParams ReturnStructParams;
 	};
@@ -64,20 +69,27 @@ template<> COOPHORDEGAME_API UScriptStruct* StaticStruct<FHitScanTrace>()
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FHitScanTrace>();
 	}
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_TraceFrom_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_SurfaceType_MetaData[] = {
 		{ "ModuleRelativePath", "Public/SWeapon.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_TraceFrom = { "TraceFrom", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FHitScanTrace, TraceFrom), Z_Construct_UScriptStruct_FVector_NetQuantize, METADATA_PARAMS(Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_TraceFrom_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_TraceFrom_MetaData)) }; // 1408259225
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_SurfaceType = { "SurfaceType", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FHitScanTrace, SurfaceType), Z_Construct_UEnum_PhysicsCore_EPhysicalSurface, METADATA_PARAMS(Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_SurfaceType_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_SurfaceType_MetaData)) }; // 455643187
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_TraceTo_MetaData[] = {
 		{ "ModuleRelativePath", "Public/SWeapon.h" },
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_TraceTo = { "TraceTo", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FHitScanTrace, TraceTo), Z_Construct_UScriptStruct_FVector_NetQuantize, METADATA_PARAMS(Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_TraceTo_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_TraceTo_MetaData)) }; // 1408259225
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_ShootsFired_MetaData[] = {
+		{ "ModuleRelativePath", "Public/SWeapon.h" },
+	};
+#endif
+	const UECodeGen_Private::FInt8PropertyParams Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_ShootsFired = { "ShootsFired", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Int8, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FHitScanTrace, ShootsFired), METADATA_PARAMS(Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_ShootsFired_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_ShootsFired_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FHitScanTrace_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_TraceFrom,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_SurfaceType,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_TraceTo,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewProp_ShootsFired,
 	};
 	const UECodeGen_Private::FStructParams Z_Construct_UScriptStruct_FHitScanTrace_Statics::ReturnStructParams = {
 		(UObject* (*)())Z_Construct_UPackage__Script_CoopHordeGame,
@@ -428,7 +440,7 @@ template<> COOPHORDEGAME_API UScriptStruct* StaticStruct<FHitScanTrace>()
 		{ "ModuleRelativePath", "Public/SWeapon.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ASWeapon_Statics::NewProp_HitScanTrace = { "HitScanTrace", "OnRep_HitScanTrace", (EPropertyFlags)0x0020080100000020, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASWeapon, HitScanTrace), Z_Construct_UScriptStruct_FHitScanTrace, METADATA_PARAMS(Z_Construct_UClass_ASWeapon_Statics::NewProp_HitScanTrace_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASWeapon_Statics::NewProp_HitScanTrace_MetaData)) }; // 1063889022
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ASWeapon_Statics::NewProp_HitScanTrace = { "HitScanTrace", "OnRep_HitScanTrace", (EPropertyFlags)0x0020080100000020, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASWeapon, HitScanTrace), Z_Construct_UScriptStruct_FHitScanTrace, METADATA_PARAMS(Z_Construct_UClass_ASWeapon_Statics::NewProp_HitScanTrace_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASWeapon_Statics::NewProp_HitScanTrace_MetaData)) }; // 2348240972
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASWeapon_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASWeapon_Statics::NewProp_MeshComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASWeapon_Statics::NewProp_DamageType,
@@ -492,12 +504,12 @@ template<> COOPHORDEGAME_API UScriptStruct* StaticStruct<FHitScanTrace>()
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SWeapon_h_Statics::ScriptStructInfo[] = {
-		{ FHitScanTrace::StaticStruct, Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewStructOps, TEXT("HitScanTrace"), &Z_Registration_Info_UScriptStruct_HitScanTrace, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FHitScanTrace), 1063889022U) },
+		{ FHitScanTrace::StaticStruct, Z_Construct_UScriptStruct_FHitScanTrace_Statics::NewStructOps, TEXT("HitScanTrace"), &Z_Registration_Info_UScriptStruct_HitScanTrace, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FHitScanTrace), 2348240972U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SWeapon_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ASWeapon, ASWeapon::StaticClass, TEXT("ASWeapon"), &Z_Registration_Info_UClass_ASWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASWeapon), 87955622U) },
+		{ Z_Construct_UClass_ASWeapon, ASWeapon::StaticClass, TEXT("ASWeapon"), &Z_Registration_Info_UClass_ASWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASWeapon), 683933516U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SWeapon_h_1386896664(TEXT("/Script/CoopHordeGame"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SWeapon_h_2016401354(TEXT("/Script/CoopHordeGame"),
 		Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SWeapon_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SWeapon_h_Statics::ClassInfo),
 		Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SWeapon_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_CoopHordeGame_Source_CoopHordeGame_Public_SWeapon_h_Statics::ScriptStructInfo),
 		nullptr, 0);
