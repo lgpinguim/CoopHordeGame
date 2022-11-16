@@ -1,9 +1,9 @@
 # UE4 Project directories to ignore
-CoopHordeGame/Binaries/
-CoopHordeGame/DerivedDataCache/
-CoopHordeGame/Intermediate/
-CoopHordeGame/Saved/
-CoopHordeGame/Build/
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
 
 # Visual Studio 2015 user specific files
 .vs/
@@ -66,3 +66,4 @@ Plugins/*/Binaries/*
 # Built data for maps
 *_BuiltData.uasset
 
+CoopHordeGame/Intermediate/ProjectFiles/UE5.vcxproj

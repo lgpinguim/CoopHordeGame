@@ -3394,3 +3394,5 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2022.11.16-22.45.51:685][704]LogSavePackage: Moving '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/TestMap_Auto10A6EEE8843FED1C361AE069191F00148.tmp' to '../../../../../../GitUE/CoopHordeGame/CoopHordeGame/Saved/Autosaves/Game/TestMap_Auto1.umap'
 [2022.11.16-22.45.51:690][704]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TestMap' took 0.099
 [2022.11.16-22.45.51:690][704]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.099
+[2022.11.16-22.46.43:900][ 27]LogSlate: Window 'Content Browser' being destroyed
+[2022.11.16-22.46.43:908][ 27]LogSlate: Window 'Content Browser' being destroyed
