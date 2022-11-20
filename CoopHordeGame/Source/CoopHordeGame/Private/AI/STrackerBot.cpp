@@ -17,10 +17,13 @@ ASTrackerBot::ASTrackerBot()
 
 	MeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComp"));
 	MeshComponent->SetCanEverAffectNavigation(false);
+	MeshComponent->SetSimulatePhysics(true);
 	RootComponent = MeshComponent;
 
+	bUseVelocityChange = false;
+	MovementForce = 1000.f;
 
-	
+	RequiredDistanceToTarget = 100;
 
 }
 
@@ -28,6 +31,9 @@ ASTrackerBot::ASTrackerBot()
 void ASTrackerBot::BeginPlay()
 {
 	Super::BeginPlay();
+
+	//Find initial move to
+	NextPathPoint = GetNextPathPoint();
 	
 }
 
@@ -47,13 +53,35 @@ FVector ASTrackerBot::GetNextPathPoint()
 	//Failed to find path
 	return GetActorLocation();
 	
-
 }
 
 // Called every frame
 void ASTrackerBot::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	float DistanceToTarget = (GetActorLocation() - NextPathPoint).Size();
+
+	if (DistanceToTarget <= RequiredDistanceToTarget)
+	{
+		NextPathPoint = GetNextPathPoint();
+
+		//DrawDebugString(GetWorld(),GetActorLocation(),"Target Reached");
+	}
+	
+	else
+	{
+		FVector ForceDirection = NextPathPoint - GetActorLocation();
+		ForceDirection.Normalize();
+
+		ForceDirection *= MovementForce;
+		
+		MeshComponent->AddForce(ForceDirection,NAME_None,bUseVelocityChange);
+
+		DrawDebugDirectionalArrow(GetWorld(), GetActorLocation(), GetActorLocation() + ForceDirection, 32, FColor::Yellow,0.0f,0.0f,1.0f);
+	}
+
+	DrawDebugSphere(GetWorld(), NextPathPoint,20,12,FColor::Yellow,false,4.0f,1.0f);
 
 }
 
