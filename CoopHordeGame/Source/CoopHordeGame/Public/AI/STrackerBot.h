@@ -3,8 +3,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Component/SHealthComponent.h"
 #include "GameFramework/Pawn.h"
 #include "STrackerBot.generated.h"
+
+class USHealthComponent;
 
 UCLASS()
 class COOPHORDEGAME_API ASTrackerBot : public APawn
@@ -22,6 +25,13 @@ protected:
 	UPROPERTY(VisibleDefaultsOnly, Category = "Components" )
 	UStaticMeshComponent* MeshComponent;
 
+	UPROPERTY(VisibleDefaultsOnly, Category = "Components" )
+	USHealthComponent* HealthComponent;
+
+	UFUNCTION()
+	void HandleTakeDamage(USHealthComponent* InHealthComp, float Health, float HealthDelta,
+		const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
+
 	FVector GetNextPathPoint();
 
 	//next point in navigation path
@@ -35,6 +45,11 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly,Category ="TrackerBot")
 	float RequiredDistanceToTarget;
+
+	//Dynamic Material to pulse on damage
+	UMaterialInstanceDynamic* MatInst;
+
+	
 
 public:	
 	// Called every frame

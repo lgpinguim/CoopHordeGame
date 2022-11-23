@@ -20,6 +20,9 @@ ASTrackerBot::ASTrackerBot()
 	MeshComponent->SetSimulatePhysics(true);
 	RootComponent = MeshComponent;
 
+	HealthComponent = CreateDefaultSubobject<USHealthComponent>(TEXT("HealthComponent"));
+	HealthComponent->OnHealthChanged.AddDynamic(this,&ASTrackerBot::HandleTakeDamage);
+
 	bUseVelocityChange = false;
 	MovementForce = 1000.f;
 
@@ -35,6 +38,25 @@ void ASTrackerBot::BeginPlay()
 	//Find initial move to
 	NextPathPoint = GetNextPathPoint();
 	
+}
+
+void ASTrackerBot::HandleTakeDamage(USHealthComponent* InHealthComp, float Health, float HealthDelta,
+	const UDamageType* DamageType, AController* InstigatedBy, AActor* DamageCauser)
+{
+	// Explode on hitpoints ==0
+
+	//@TODO: Pulse Material On Hit
+	if (MatInst == nullptr)
+	{
+		MatInst = MeshComponent->CreateAndSetMaterialInstanceDynamicFromMaterial(0,MeshComponent->GetMaterial(0));
+	}
+
+	if (MatInst)
+	{
+		MatInst->SetScalarParameterValue("LastTimeDamageTaken", GetWorld()->TimeSeconds);
+	}
+	
+	UE_LOG(LogTemp,Log,TEXT("Health of %s of %s"), *FString::SanitizeFloat(Health),*GetName());
 }
 
 FVector ASTrackerBot::GetNextPathPoint()
