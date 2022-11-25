@@ -32,6 +32,9 @@ protected:
 	void HandleTakeDamage(USHealthComponent* InHealthComp, float Health, float HealthDelta,
 		const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
 
+	UFUNCTION()
+	void SelfDestruct();
+
 	FVector GetNextPathPoint();
 
 	//next point in navigation path
@@ -48,6 +51,16 @@ protected:
 
 	//Dynamic Material to pulse on damage
 	UMaterialInstanceDynamic* MatInst;
+
+	UPROPERTY(EditDefaultsOnly,Category ="TrackerBot")
+	UParticleSystem* ExplosionEffect;
+
+	bool bExploded;
+
+	float ExplosionRadius;
+
+	float ExplosionDamage;
+	
 
 	
 
