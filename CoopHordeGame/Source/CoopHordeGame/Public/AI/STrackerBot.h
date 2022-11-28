@@ -4,10 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "Component/SHealthComponent.h"
+#include "Components/SphereComponent.h"
 #include "GameFramework/Pawn.h"
 #include "STrackerBot.generated.h"
 
 class USHealthComponent;
+class USphereComponent;
 
 UCLASS()
 class COOPHORDEGAME_API ASTrackerBot : public APawn
@@ -27,6 +29,9 @@ protected:
 
 	UPROPERTY(VisibleDefaultsOnly, Category = "Components" )
 	USHealthComponent* HealthComponent;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = "Components" )
+	USphereComponent* SphereComponent;
 
 	UFUNCTION()
 	void HandleTakeDamage(USHealthComponent* InHealthComp, float Health, float HealthDelta,
@@ -57,16 +62,23 @@ protected:
 
 	bool bExploded;
 
+	bool bStartedSelfDestruction;
+
+	UPROPERTY(EditDefaultsOnly,Category ="TrackerBot")
 	float ExplosionRadius;
 
+	UPROPERTY(EditDefaultsOnly,Category ="TrackerBot")
 	float ExplosionDamage;
-	
 
-	
+	FTimerHandle TimerHandle_SelfDamage;
+
+	void DamageSelf();
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;  
 	
 
 };
