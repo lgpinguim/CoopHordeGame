@@ -6,10 +6,12 @@
 #include "Component/SHealthComponent.h"
 #include "Components/SphereComponent.h"
 #include "GameFramework/Pawn.h"
+#include "Sound/SoundCue.h"
 #include "STrackerBot.generated.h"
 
 class USHealthComponent;
 class USphereComponent;
+class USoundCue;
 
 UCLASS()
 class COOPHORDEGAME_API ASTrackerBot : public APawn
@@ -65,6 +67,9 @@ protected:
 	bool bStartedSelfDestruction;
 
 	UPROPERTY(EditDefaultsOnly,Category ="TrackerBot")
+	float SelfDamageInterval;
+
+	UPROPERTY(EditDefaultsOnly,Category ="TrackerBot")
 	float ExplosionRadius;
 
 	UPROPERTY(EditDefaultsOnly,Category ="TrackerBot")
@@ -73,6 +78,12 @@ protected:
 	FTimerHandle TimerHandle_SelfDamage;
 
 	void DamageSelf();
+
+	UPROPERTY(EditDefaultsOnly,Category ="TrackerBot")
+	USoundCue* SelfDestructSound;
+
+	UPROPERTY(EditDefaultsOnly,Category ="TrackerBot")
+	USoundCue* ExplodeSound;
 
 public:	
 	// Called every frame

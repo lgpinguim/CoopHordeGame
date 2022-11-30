@@ -39,6 +39,7 @@ ASTrackerBot::ASTrackerBot()
 	ExplosionRadius = 200;
 	ExplosionDamage = 40;
 	bStartedSelfDestruction = false;
+	SelfDamageInterval = 0.25f;
 	
 
 }
@@ -93,6 +94,8 @@ void ASTrackerBot::SelfDestruct()
 
 	DrawDebugSphere(GetWorld(),GetActorLocation(),ExplosionRadius,12,FColor::Red,
 		false,2.0f,0,1.0f);
+
+	UGameplayStatics::PlaySoundAtLocation(this,ExplodeSound,GetActorLocation());
 	
 	//Delete actor immediately
 	Destroy();
@@ -159,9 +162,11 @@ void ASTrackerBot::NotifyActorBeginOverlap(AActor* OtherActor)
 
 		if (PlayerPawn)
 		{
-			GetWorldTimerManager().SetTimer(TimerHandle_SelfDamage,this,&ASTrackerBot::DamageSelf,0.5f,true,0.0f);
+			GetWorldTimerManager().SetTimer(TimerHandle_SelfDamage,this,&ASTrackerBot::DamageSelf,SelfDamageInterval,true,0.0f);
 
 			bStartedSelfDestruction = true;
+
+			UGameplayStatics::SpawnSoundAttached(SelfDestructSound,RootComponent);
 		}
 	}
 }
