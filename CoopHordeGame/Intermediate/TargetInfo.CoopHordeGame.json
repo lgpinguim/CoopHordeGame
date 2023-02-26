@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "CoopHordeGame",
-			"Path": "D:\\GitUE\\CoopHordeGame\\CoopHordeGame\\Source\\CoopHordeGame.Target.cs",
+			"Path": "C:\\Users\\lg_pi\\OneDrive\\Documentos\\GitHub\\CoopHordeGame\\CoopHordeGame\\Source\\CoopHordeGame.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "CoopHordeGameEditor",
-			"Path": "D:\\GitUE\\CoopHordeGame\\CoopHordeGame\\Source\\CoopHordeGameEditor.Target.cs",
+			"Path": "C:\\Users\\lg_pi\\OneDrive\\Documentos\\GitHub\\CoopHordeGame\\CoopHordeGame\\Source\\CoopHordeGameEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

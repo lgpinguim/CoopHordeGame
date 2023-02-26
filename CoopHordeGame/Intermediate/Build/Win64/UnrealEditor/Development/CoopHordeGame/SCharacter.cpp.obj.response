@@ -1,6 +1,6 @@
-D:\GitUE\CoopHordeGame\CoopHordeGame\Source\CoopHordeGame\Private\SCharacter.cpp
+C:\Users\lg_pi\OneDrive\Documentos\GitHub\CoopHordeGame\CoopHordeGame\Source\CoopHordeGame\Private\SCharacter.cpp
 /I .
-/I D:\GitUE\CoopHordeGame\CoopHordeGame\Source\CoopHordeGame\Private
+/I C:\Users\lg_pi\OneDrive\Documentos\GitHub\CoopHordeGame\CoopHordeGame\Source\CoopHordeGame\Private
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I Runtime
 /I ..\Shaders\Shared
@@ -270,23 +270,24 @@ D:\GitUE\CoopHordeGame\CoopHordeGame\Source\CoopHordeGame\Private\SCharacter.cpp
 /I Runtime\MovieSceneCapture\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT
 /I Developer\AnimationDataController\Public
-/I D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Inc\CoopHordeGame\UHT
-/I D:\GitUE\CoopHordeGame\CoopHordeGame\Source
-/I D:\GitUE\CoopHordeGame\CoopHordeGame\Source\CoopHordeGame\Public
-/I ThirdParty\mimalloc\include
-/I ThirdParty\LibTiff\Source\Win64
-/I ThirdParty\LibTiff\Source
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\CoopHordeGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/FI"D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\Definitions.CoopHordeGame.h"
-/Yu"D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\CoopHordeGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/Fp"D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\CoopHordeGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
-/Fo"D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\SCharacter.cpp.obj"
-/sourceDependencies D:\GitUE\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\SCharacter.cpp.dep.json
+/I C:\Users\lg_pi\OneDrive\Documentos\GitHub\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Inc\CoopHordeGame\UHT
+/I C:\Users\lg_pi\OneDrive\Documentos\GitHub\CoopHordeGame\CoopHordeGame\Source
+/I C:\Users\lg_pi\OneDrive\Documentos\GitHub\CoopHordeGame\CoopHordeGame\Source\CoopHordeGame\Public
+/external:W0
+/external:I ThirdParty\mimalloc\include
+/external:I ThirdParty\LibTiff\Source\Win64
+/external:I ThirdParty\LibTiff\Source
+/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
+/FI"C:\Users\lg_pi\OneDrive\Documentos\GitHub\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\CoopHordeGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/FI"C:\Users\lg_pi\OneDrive\Documentos\GitHub\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\Definitions.CoopHordeGame.h"
+/Yu"C:\Users\lg_pi\OneDrive\Documentos\GitHub\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\CoopHordeGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/Fp"C:\Users\lg_pi\OneDrive\Documentos\GitHub\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\CoopHordeGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
+/Fo"C:\Users\lg_pi\OneDrive\Documentos\GitHub\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\SCharacter.cpp.obj"
+/sourceDependencies C:\Users\lg_pi\OneDrive\Documentos\GitHub\CoopHordeGame\CoopHordeGame\Intermediate\Build\Win64\UnrealEditor\Development\CoopHordeGame\SCharacter.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi
