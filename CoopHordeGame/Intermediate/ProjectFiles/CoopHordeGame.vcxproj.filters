@@ -63,6 +63,9 @@
     <ClCompile Include="..\..\Source\CoopHordeGame\Private\SPickupActor.cpp">
       <Filter>Source\CoopHordeGame\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\CoopHordeGame\Private\SPowerupActor.cpp">
+      <Filter>Source\CoopHordeGame\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\CoopHordeGame\Private\SProjectileWeapon.cpp">
       <Filter>Source\CoopHordeGame\Private</Filter>
     </ClCompile>
@@ -91,6 +94,9 @@
       <Filter>Source\CoopHordeGame\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\CoopHordeGame\Public\SPickupActor.h">
+      <Filter>Source\CoopHordeGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CoopHordeGame\Public\SPowerupActor.h">
       <Filter>Source\CoopHordeGame\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\CoopHordeGame\Public\SProjectileWeapon.h">

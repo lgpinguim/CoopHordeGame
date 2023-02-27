@@ -4,7 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/DecalComponent.h"
+#include "Components/SphereComponent.h"
 #include "SPickupActor.generated.h"
+
 
 UCLASS()
 class COOPHORDEGAME_API ASPickupActor : public AActor
@@ -27,7 +30,7 @@ protected:
 
 public:	
 
-
+	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;  
 
 
 };
