@@ -1,13 +1,11 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Components/DecalComponent.h"
 #include "Components/SphereComponent.h"
+#include "SPowerupActor.h"
 #include "SPickupActor.generated.h"
-
 
 UCLASS()
 class COOPHORDEGAME_API ASPickupActor : public AActor
@@ -27,6 +25,19 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, Category = "Components")
 	UDecalComponent* DecalComponent;
+
+	UPROPERTY(EditDefaultsOnly, Category ="PickupActor")
+	TSubclassOf<ASPowerupActor> PowerUpClass;
+
+	ASPowerupActor* PowerupInstance;
+
+	UPROPERTY(VisibleAnywhere, Category = "Components")
+	float CooldownDuration;
+
+	FTimerHandle FTimerHandle_RespawnTimer;
+
+	UFUNCTION()
+	void Respawn();
 
 public:	
 
