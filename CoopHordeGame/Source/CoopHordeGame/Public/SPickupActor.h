@@ -1,7 +1,5 @@
 #pragma once
 
-#include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
 #include "Components/DecalComponent.h"
 #include "Components/SphereComponent.h"
 #include "SPowerupActor.h"
