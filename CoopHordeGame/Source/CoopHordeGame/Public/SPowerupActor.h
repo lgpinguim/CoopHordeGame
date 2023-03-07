@@ -2,8 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
+
 #include "SPowerupActor.generated.h"
 
 UCLASS()
@@ -21,11 +20,11 @@ protected:
 
 	/*Time between ticks*/
 	UPROPERTY(EditDefaultsOnly, Category = "Powerups")
-		float PowerupInterval;
+	float PowerupInterval;
 
 	/*Total times we apply the powerup */
 	UPROPERTY(EditDefaultsOnly, Category = "Powerups")
-		int32 TotalNumberOfTicks;
+	int32 TotalNumberOfTicks;
 
 	FTimerHandle TimerHandle_PowerupTick;
 
