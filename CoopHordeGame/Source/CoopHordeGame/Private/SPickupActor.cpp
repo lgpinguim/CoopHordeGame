@@ -18,7 +18,7 @@ ASPickupActor::ASPickupActor()
 	DecalComponent->SetRelativeRotation(FRotator(90, 0.0f, 0.0f));
 	DecalComponent->DecalSize = FVector(64, 75, 75);
 	DecalComponent->SetupAttachment(RootComponent);
-	CooldownDuration = 1.0f;
+	CooldownDuration = 10.0f;
 }
 
 // Called when the game starts or when spawned

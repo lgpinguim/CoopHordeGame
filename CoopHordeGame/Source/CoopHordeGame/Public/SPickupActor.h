@@ -32,7 +32,7 @@ protected:
 
 	ASPowerupActor* PowerupInstance;
 
-	UPROPERTY(VisibleAnywhere, Category = "Components")
+	UPROPERTY(EditInstanceOnly, Category = "Components")
 	float CooldownDuration;
 
 	FTimerHandle FTimerHandle_RespawnTimer;
