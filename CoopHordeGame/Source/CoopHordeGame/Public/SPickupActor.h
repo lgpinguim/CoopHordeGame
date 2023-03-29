@@ -1,9 +1,12 @@
 #pragma once
 
-#include "Components/DecalComponent.h"
-#include "Components/SphereComponent.h"
+
 #include "SPowerupActor.h"
 #include "SPickupActor.generated.h"
+
+class USphereComponent;
+class UDecalComponent;
+class ASPowerupActor;
 
 UCLASS()
 class COOPHORDEGAME_API ASPickupActor : public AActor

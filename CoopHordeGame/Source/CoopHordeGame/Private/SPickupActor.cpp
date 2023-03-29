@@ -4,6 +4,9 @@
 #include "SPickupActor.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/DecalComponent.h"
+#include "Components/SphereComponent.h"
+#include "TimerManager.h"
 
 // Sets default values
 ASPickupActor::ASPickupActor()
