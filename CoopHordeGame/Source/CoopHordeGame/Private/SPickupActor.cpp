@@ -14,11 +14,15 @@ ASPickupActor::ASPickupActor()
 	SphereComponent = CreateDefaultSubobject<USphereComponent>(TEXT("ShepreComponent"));
 	SphereComponent->SetSphereRadius(75.0f);
 	RootComponent = SphereComponent;
+
 	DecalComponent = CreateDefaultSubobject<UDecalComponent>(TEXT("DecalComponent"));
 	DecalComponent->SetRelativeRotation(FRotator(90, 0.0f, 0.0f));
 	DecalComponent->DecalSize = FVector(64, 75, 75);
 	DecalComponent->SetupAttachment(RootComponent);
+
 	CooldownDuration = 10.0f;
+
+	SetReplicates(true);
 }
 
 // Called when the game starts or when spawned
@@ -26,8 +30,10 @@ void ASPickupActor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	Respawn();
-	
+	if(HasAuthority())
+	{
+		Respawn();
+	}
 }
 
 void ASPickupActor::Respawn()
@@ -47,7 +53,7 @@ void ASPickupActor::NotifyActorBeginOverlap(AActor* OtherActor)
 {
 	Super::NotifyActorBeginOverlap(OtherActor);
 
-	if (PowerupInstance)
+	if (HasAuthority() && PowerupInstance)
 	{
 		PowerupInstance->ActivatePowerup();
 
