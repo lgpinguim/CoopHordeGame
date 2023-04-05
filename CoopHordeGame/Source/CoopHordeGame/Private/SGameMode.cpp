@@ -6,6 +6,7 @@
 #include "EngineUtils.h"
 #include "TimerManager.h"
 #include "Component/SHealthComponent.h"
+#include "Components/ShapeComponent.h"
 
 
 ASGameMode::ASGameMode()
@@ -87,6 +88,34 @@ void ASGameMode::CheckWaveState()
 	
 }
 
+void ASGameMode::CheckAnyPlayerAlive()
+{
+
+	for(FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; It++)
+	{
+		APlayerController* PC = It->Get();
+		if (PC && PC->GetPawn())
+		{
+			APawn* MyPawn = PC->GetPawn();
+			USHealthComponent* HealthComp = Cast<USHealthComponent>(MyPawn->GetComponentByClass(UShapeComponent::StaticClass()));
+			if (ensure(HealthComp) && HealthComp->GetHealth() > 0.0f)
+			{
+				return;
+			}
+		}
+	}
+
+	//No Player Alive
+	GameOver();
+	
+}
+
+void ASGameMode::GameOver()
+{
+	EndWave();
+	//Finish match, present game over
+}
+
 
 void ASGameMode::StartPlay()
 {
@@ -100,4 +129,6 @@ void ASGameMode::Tick(float DeltaSeconds)
 	Super::Tick(DeltaSeconds);
 
 	CheckWaveState();
+
+	CheckAnyPlayerAlive();
 }
