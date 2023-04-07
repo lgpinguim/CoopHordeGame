@@ -7,11 +7,14 @@
 #include "TimerManager.h"
 #include "Component/SHealthComponent.h"
 #include "Components/ShapeComponent.h"
+#include "SGameState.h"
 
 
 ASGameMode::ASGameMode()
 {
 	TimeBetweenWaves = 2.0f;
+
+	GameStateClass = ASGameState::StaticClass();
 
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.TickInterval = 1.0f;
@@ -114,6 +117,15 @@ void ASGameMode::GameOver()
 {
 	EndWave();
 	//Finish match, present game over
+}
+
+void ASGameMode::SetWaveState(EWaveState NewState)
+{
+	ASGameState* GS = GetGameState<ASGameState>();
+	if (ensureAlways(GS))
+	{
+		GS->WaveState = NewState;
+	}
 }
 
 
