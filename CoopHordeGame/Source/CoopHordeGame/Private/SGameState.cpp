@@ -5,9 +5,21 @@
 
 #include "Net/UnrealNetwork.h"
 
+
 void ASGameState::OnRep_WaveState(EWaveState OldState)
 {
 	WaveStateChanged(WaveState, OldState);
+}
+
+void ASGameState::SetWaveState(EWaveState NewState)
+{
+	if (HasAuthority())
+	{
+		EWaveState OldState = WaveState;
+		WaveState = NewState;
+		//call on server
+		OnRep_WaveState(OldState);
+	}
 }
 
 

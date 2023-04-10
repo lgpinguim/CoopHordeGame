@@ -15,6 +15,7 @@ ASGameMode::ASGameMode()
 	TimeBetweenWaves = 2.0f;
 
 	GameStateClass = ASGameState::StaticClass();
+	//PlayerStateClass = ASPlayerState::StaticClass();
 
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.TickInterval = 1.0f;
@@ -28,6 +29,8 @@ void ASGameMode::StartWave()
 	NumberOfBotsToSpawn = 2 * WaveCount;
 
 	GetWorldTimerManager().SetTimer(TimerHandle_BotSpawner, this, &ASGameMode::SpawnBotTimerElapsed, 1.0f, true, 0.0f);
+
+	SetWaveState(EWaveState::WaveInProgress);
 }
 
 void ASGameMode::SpawnBotTimerElapsed()
@@ -46,12 +49,16 @@ void ASGameMode::EndWave()
 {
 	GetWorldTimerManager().ClearTimer(TimerHandle_BotSpawner);
 
+	SetWaveState(EWaveState::WaitingToComplete);
+
 }
 
 void ASGameMode::PrepareForNextWave()
 {
 	
 	GetWorldTimerManager().SetTimer(TimerHandle_NextWaveStart, this, &ASGameMode::StartWave, TimeBetweenWaves, false);
+
+	SetWaveState(EWaveState::WaitingToStart);
 }
 
 void ASGameMode::CheckWaveState()
@@ -67,9 +74,9 @@ void ASGameMode::CheckWaveState()
 
 	bool bIsAnyBotAlive = false;
 
-	for (TActorIterator<APawn> Itr(GetWorld()); Itr; ++Itr)
+	for (TActorIterator<APawn> It(GetWorld()); It; ++It)
 	{
-		APawn* TestPawn = *Itr;
+		APawn* TestPawn = *It;
 		if (TestPawn == nullptr || TestPawn->IsPlayerControlled())
 		{
 			continue;
@@ -81,11 +88,13 @@ void ASGameMode::CheckWaveState()
 			bIsAnyBotAlive = true;
 			break;
 		}
+	}
 
-		if (!bIsAnyBotAlive)
-		{
-			PrepareForNextWave();
-		}
+	if (!bIsAnyBotAlive)
+	{
+		SetWaveState(EWaveState::WaveComplete);
+
+		PrepareForNextWave();
 	}
 
 	
@@ -94,21 +103,22 @@ void ASGameMode::CheckWaveState()
 void ASGameMode::CheckAnyPlayerAlive()
 {
 
-	for(FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; It++)
+	for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; ++It)
 	{
 		APlayerController* PC = It->Get();
 		if (PC && PC->GetPawn())
 		{
 			APawn* MyPawn = PC->GetPawn();
-			USHealthComponent* HealthComp = Cast<USHealthComponent>(MyPawn->GetComponentByClass(UShapeComponent::StaticClass()));
+			USHealthComponent* HealthComp = Cast<USHealthComponent>(MyPawn->GetComponentByClass(USHealthComponent::StaticClass()));
 			if (ensure(HealthComp) && HealthComp->GetHealth() > 0.0f)
 			{
+				// A player is still alive.
 				return;
 			}
 		}
 	}
 
-	//No Player Alive
+	// No player alive
 	GameOver();
 	
 }
@@ -116,6 +126,8 @@ void ASGameMode::CheckAnyPlayerAlive()
 void ASGameMode::GameOver()
 {
 	EndWave();
+
+	SetWaveState(EWaveState::GameOver);
 	//Finish match, present game over
 }
 
@@ -124,7 +136,8 @@ void ASGameMode::SetWaveState(EWaveState NewState)
 	ASGameState* GS = GetGameState<ASGameState>();
 	if (ensureAlways(GS))
 	{
-		GS->WaveState = NewState;
+		GS->SetWaveState(NewState);
+		
 	}
 }
 
