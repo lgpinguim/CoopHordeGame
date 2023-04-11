@@ -8,6 +8,7 @@
 #include "Component/SHealthComponent.h"
 #include "Components/ShapeComponent.h"
 #include "SGameState.h"
+#include "SPlayerState.h"
 
 
 ASGameMode::ASGameMode()
@@ -15,7 +16,7 @@ ASGameMode::ASGameMode()
 	TimeBetweenWaves = 2.0f;
 
 	GameStateClass = ASGameState::StaticClass();
-	//PlayerStateClass = ASPlayerState::StaticClass();
+	PlayerStateClass = ASPlayerState::StaticClass();
 
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.TickInterval = 1.0f;
