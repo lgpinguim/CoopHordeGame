@@ -72,7 +72,7 @@ protected:
 	UFUNCTION()
 	void OnHealthChanged(USHealthComponent* InHealthComp, float Health, float HealthDelta, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
 
-	/*Pawn Died previusly */
+	/*Pawn Died previously */
 	UPROPERTY(Replicated, BlueprintReadOnly, Category = "Player")
 	bool bDied;
 	
