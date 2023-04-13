@@ -6,7 +6,6 @@
 #include "EngineUtils.h"
 #include "TimerManager.h"
 #include "Component/SHealthComponent.h"
-#include "Components/ShapeComponent.h"
 #include "SGameState.h"
 #include "SPlayerState.h"
 
@@ -58,6 +57,8 @@ void ASGameMode::PrepareForNextWave()
 {
 	
 	GetWorldTimerManager().SetTimer(TimerHandle_NextWaveStart, this, &ASGameMode::StartWave, TimeBetweenWaves, false);
+
+	RestartDeadPlayers();
 
 	SetWaveState(EWaveState::WaitingToStart);
 }
@@ -139,6 +140,18 @@ void ASGameMode::SetWaveState(EWaveState NewState)
 	{
 		GS->SetWaveState(NewState);
 		
+	}
+}
+
+void ASGameMode::RestartDeadPlayers()
+{
+	for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; ++It)
+	{
+		APlayerController* PC = It->Get();
+		if (PC && PC->GetPawn() == nullptr)
+		{
+			RestartPlayer(PC);
+		}
 	}
 }
 
