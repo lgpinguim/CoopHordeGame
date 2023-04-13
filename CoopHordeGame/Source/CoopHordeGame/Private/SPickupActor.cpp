@@ -3,6 +3,7 @@
 
 #include "SPickupActor.h"
 #include "CoreMinimal.h"
+#include "SCharacter.h"
 #include "GameFramework/Actor.h"
 #include "Components/DecalComponent.h"
 #include "Components/SphereComponent.h"
@@ -53,7 +54,9 @@ void ASPickupActor::NotifyActorBeginOverlap(AActor* OtherActor)
 {
 	Super::NotifyActorBeginOverlap(OtherActor);
 
-	if (HasAuthority() && PowerupInstance)
+	ASCharacter* Player = Cast<ASCharacter>(OtherActor);
+
+	if (HasAuthority() && PowerupInstance && Player)
 	{
 		PowerupInstance->ActivatePowerup(OtherActor);
 
